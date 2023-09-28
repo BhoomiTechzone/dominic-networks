@@ -39,8 +39,8 @@ const Navbar = () => {
 
 
     return (
-        <div>
-            <AppBar sx={{backgroundColor:"transparent"}} position="sticky">
+        <div position="sticky" top='90px'>
+            <AppBar sx={{backgroundColor:"#333333"}} >
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -128,7 +128,7 @@ const Navbar = () => {
                                 </Button>
                             ))}
                         </Box>
-
+                        
                         <Box sx={{ flexGrow: 0 }}>
                             <Tooltip title="Open settings">
                                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
