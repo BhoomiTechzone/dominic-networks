@@ -12,6 +12,8 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import {useState} from 'react';
+import './navbar.css'; 
 
 
 const pages = ['Products', 'Pricing', 'Blog'];
@@ -21,6 +23,15 @@ const Navbar = () => {
 
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
+    const [bar,setbar]=useState(false);
+    const changeBackground =()=>{
+        if(window.scrollY>=100){
+          setbar(true)
+        }else{
+          setbar(false)
+        }
+      }
+      window.addEventListener('scroll',changeBackground)
 
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
@@ -40,7 +51,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <AppBar sx={{backgroundColor:"transparent"}} position="sticky">
+            <AppBar sx={{backgroundColor:"transparent"}} position="fixed" className={bar ?'navbar active':'navbar'}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />

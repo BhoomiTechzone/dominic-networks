@@ -1,0 +1,6 @@
+.navbar.active{
+    background-color: rgb(28, 18, 73);
+  }
+  .navbar.active a{
+    color: aliceblue !important;
+  }
