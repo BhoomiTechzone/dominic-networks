@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/Footer';
 import Home from './Components/Home';
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       Totam adipisci reprehenderit quidem necessitatibus quis dicta labore vero nisi ad itaque earum, debitis aspernatur obcaecati vel, architecto incidunt iure quibusdam aliquam magnam cum nihil rem quia harum veniam. Tenetur.
       Ducimus reiciendis repellat voluptates impedit, aliquid eaque nisi et nulla quidem incidunt doloribus aperiam natus architecto, ab libero hic, error modi! Aspernatur fugit laborum ex fugiat saepe quidem, aliquid labore.
      </div>
+     
+    <Footer/>
     </div>
   );
 }

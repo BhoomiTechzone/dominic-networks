@@ -51,7 +51,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <AppBar sx={{backgroundColor:"transparent"}} position="fixed" className={bar ?'navbar active':'navbar'}>
+            <AppBar sx={{backgroundColor:"transparent", boxShadow:"none"}} position="fixed" className={bar ?'navbar active':'navbar'}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
