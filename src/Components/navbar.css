@@ -1,7 +1,10 @@
 .navbar.active{
-  background-color: #9C27B0;
+  background-color: rgb(61, 60, 60);
 }
 
 .navbar.active a{
   color: aliceblue !important;
+}
+.MuiToolbar-root  img{
+  margin-right: 25px;
 }

@@ -18,7 +18,7 @@ import logoimg from '../image/logo/logo short.png'
 import logolong from '../image/logo/logo long.png'
 
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Home', 'About Us', 'Contact Us'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const Navbar = () => {
@@ -55,7 +55,7 @@ const Navbar = () => {
         <div>
             <AppBar sx={{backgroundColor:"transparent", boxShadow:"none"}} position="fixed" className={bar ?'navbar active':'navbar'}>
                 <Container maxWidth="xl">
-                    <Toolbar disableGutters>
+                    <Toolbar disableGutters >
                         <img src={logoimg} alt="" height="60px"/>
 
                         {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -76,9 +76,9 @@ const Navbar = () => {
                         >
                             LOGO
                         </Typography> */}
-                         <img src={logolong} alt="logo text" height="60px" />
+                         <img src={logolong} alt="logo text" height="60px"  />
 
-                        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                        <Box sx={{ flexGrow: 1,  display: { xs: 'flex', md: 'none' } }}>
                             <IconButton
                                 size="large"
                                 aria-label="account of current user"
