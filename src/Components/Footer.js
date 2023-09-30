@@ -3,16 +3,11 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-// import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-// import { MenuItem, Select } from '@mui/material';
-// import InputLabel from '@mui/material/InputLabel';
-// import FormControl from '@mui/material/FormControl';
-// import NativeSelect from '@mui/material/NativeSelect';
 
 
 const Footer = () => {
@@ -92,11 +87,11 @@ const Footer = () => {
                     </CardContent>
                 </Box>
             </Card>
-            <Box sx={{ display: "flex", justifyContent: "space-between",alignItems:"center" ,flexWrap: "wrap", borderTop: "4px solid #9C27B0", backgroundColor: "#212529", p: "2rem " }}>
+            <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #9C27B0", backgroundColor: "#212529", p: "2rem " }}>
                 <Typography sx={{ color: "white" }} variant='h6' color="text.secondary">
                     All Right Reserved. ©2023 Dominic Networks.
                 </Typography>
-                <Box sx={{ display: 'flex', justifyContent: "space-between", width: "500px" }}>
+                <Box sx={{ display: 'flex', justifyContent: "space-between" }}>
                     <Box sx={{ display: "flex", justifyContent: "space-between", gap: "20px", alignItems: "center" }}>
                         <Typography sx={{ color: "white" }} variant='h6' color="text.secondary">
                             Follow Us:
