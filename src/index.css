@@ -5,11 +5,12 @@
 }
 
 .home-container{
-  background-image: url(https://www.anonet.in/uploaded_files/home/banner_1689318999.jpg);
-  width: 100vw;
+  background-image: url('./image/istockphoto-1214476809-1024x1024-transformed.jpeg');
+  /* width: 100vw; */
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  /* opacity: 0.9 black; */
   
 }
 

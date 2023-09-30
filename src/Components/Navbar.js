@@ -14,6 +14,8 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {useState} from 'react';
 import './navbar.css'; 
+import logoimg from '../image/logo/logo short.png'
+import logolong from '../image/logo/logo long.png'
 
 
 const pages = ['Products', 'Pricing', 'Blog'];
@@ -54,8 +56,10 @@ const Navbar = () => {
             <AppBar sx={{backgroundColor:"transparent", boxShadow:"none"}} position="fixed" className={bar ?'navbar active':'navbar'}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
-                        <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-                        <Typography
+                        <img src={logoimg} alt="" height="60px"/>
+
+                        {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
+                        {/* <Typography
                             variant="h6"
                             noWrap
                             component="a"
@@ -71,7 +75,8 @@ const Navbar = () => {
                             }}
                         >
                             LOGO
-                        </Typography>
+                        </Typography> */}
+                         <img src={logolong} alt="logo text" height="60px" />
 
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                             <IconButton
