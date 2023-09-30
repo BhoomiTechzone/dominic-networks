@@ -7,27 +7,34 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-const bull = (
-    <Box
-        component="span"
-        sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-    >
-        •
-    </Box>
-);
 
 const Overview = () => {
     return (
-        <Card sx={{ }}>
-            <CardContent>
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                    adjective
-                </Typography>
-                <Typography variant="body2">
-                    well meaning and kindly.
-                    <br />
-                    {'"a benevolent smile"'}
-                </Typography>
+        <Card sx={{}}>
+            <CardContent sx={{ display: "flex", height: "60vh" }}>
+                <Box>
+                    hello
+                </Box>
+                <Box>
+                    <Typography display="inline" variant="h3">
+                        SURF WITH
+                        <Typography variant="h3" display="inline" sx={{ color: "warning.main" }}> EASE</Typography>
+                    </Typography>
+                    <Typography variant="h5">
+                        Stay Connected, Stay Ahead
+                    </Typography>
+                    <Box sx={{display:"flex", justifyContent:"space-between", border:"1px solid red", width:"50vw", fontSize:"24px"}}>
+                        <ul>
+                            <li>Affordable Pricing.</li>
+                            <li>Unlimited download with all plans</li>
+                            <li>4k & 8k apps with every plan</li>
+                        </ul>
+                        <ul>
+                           <li>Free OTT apps with every plan</li>
+                           <li>Free 300+ Tv Channels with every plan</li>
+                        </ul>
+                    </Box>
+                </Box>
             </CardContent>
         </Card>
     )
