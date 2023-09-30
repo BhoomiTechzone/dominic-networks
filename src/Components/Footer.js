@@ -8,6 +8,7 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import imgl from '../image/logo/logo.png'
 
 
 const Footer = () => {
@@ -17,8 +18,9 @@ const Footer = () => {
             <Card sx={{ display: 'flex', justifyContent: "space-between", backgroundColor: "black", flexWrap: "wrap" }}>
                 <CardMedia
                     component="img"
-                    sx={{ width: 251 }}
-                    image="/static/images/cards/live-from-space.jpg"
+                    sx={{ width: 320 , height:120}}
+                    
+                    image={imgl}
                     alt="Live from space album cover"
                 />
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
