@@ -6,6 +6,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import mob from '../image/Untitled111-removebg-preview (1).png'
 
 
 const Overview = () => {
@@ -13,9 +14,9 @@ const Overview = () => {
         <Card sx={{}}>
             <CardContent sx={{ display: "flex", height: "60vh" }}>
                 <Box>
-                    hello
+                    <img src={mob} alt="" height="400px" />
                 </Box>
-                <Box>
+                <Box pt={10}>
                     <Typography display="inline" variant="h3">
                         SURF WITH
                         <Typography variant="h3" display="inline" sx={{ color: "warning.main" }}> EASE</Typography>
