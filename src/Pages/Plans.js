@@ -5,16 +5,18 @@ import Box from '@mui/material/Box';
 const Plans = () => {
     return (
         <div className='container-plans'>
-            <Box sx={{ display: "flex", alignItems: "center" }}>
-                <Box sx={{ backgroundColor: "white", width: "2px", height: "30px" }} ></Box>
-                <Typography color="white" component="div" variant="h5" m="8px">
-                    Fiber Plans
+            <Box sx={{ display: "flex", alignItems: "center", flexDirection:"column" }}>
+                <Box sx={{ display: "flex", alignItems: "center" }}>
+                    <Box sx={{ backgroundColor: "white", width: "2px", height: "30px" }} ></Box>
+                    <Typography color="white" component="div" variant="h5" m="8px">
+                        Fiber Plans
+                    </Typography>
+                </Box>
+                <Typography color="white">
+                    Experience lightning-fast internet with
                 </Typography>
-                <Typography>
-                  Experience lightning-fast internet with
-                </Typography>
-                <Typography>
-                  Our Fiber Plans - Choose the right plan for your needs! 
+                <Typography color="white">
+                    Our Fiber Plans - Choose the right plan for your needs!
                 </Typography>
             </Box>
         </div>
