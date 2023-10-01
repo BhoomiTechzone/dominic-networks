@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overviewImage-container{
+   width: 40vw;  
+}
+
+.overviewImage-container > img{
+    width:100%; 
+    height:100%;
+}
+
+.over-view-container{
+    height: 70vh;
+    /* padding: 40px; */
+}
+
+@media only screen and (max-width: 800px){
+    .over-view-container{
+        height: 100%;  
+        padding: 10px;  
+    }
+
+    .overviewImage-container{
+        width: 100%;
+    }
+
+    .overviewText-container{
+        margin: 40px 0px;
+    }
+
+    .overviewText-container h4{
+        font-size: 24px;
+    }
+    .overviewText-container h5{
+        font-size: 20px;
+    }
+}
