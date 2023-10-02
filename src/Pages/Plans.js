@@ -1,6 +1,7 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import PlanCard from './PlanCard';
 
 const Plans = () => {
     return (
@@ -19,6 +20,7 @@ const Plans = () => {
                     Our Fiber Plans - Choose the right plan for your needs!
                 </Typography>
             </Box>
+            <PlanCard />
         </div>
     )
 }
