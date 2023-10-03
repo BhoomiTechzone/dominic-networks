@@ -59,3 +59,11 @@ ul li{
 .happyboy_Image_Container img:hover{
   transform: scale(1.1);
 }
+
+.ott-container{
+  background-image: url('https://www.anonet.in/assets/images/bg1.png');
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}

@@ -89,7 +89,7 @@ const Footer = () => {
                     </CardContent>
                 </Box>
             </Card>
-            <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #9C27B0", backgroundColor: "#212529", p: "2rem " }}>
+            <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #c53122", backgroundColor: "#212529", p: "2rem " }}>
                 <Typography sx={{ color: "white" }} variant='h6' color="text.secondary">
                     All Right Reserved. ©2023 Dominic Networks.
                 </Typography>
@@ -98,10 +98,10 @@ const Footer = () => {
                         <Typography sx={{ color: "white" }} variant='h6' color="text.secondary">
                             Follow Us:
                         </Typography>
-                        <FacebookRoundedIcon fontSize='large' color="secondary" sx={{ backgroundColor: "white", width: "50px", height: "50px", padding: "1px", borderRadius: "50%" }} />
-                        <TwitterIcon fontSize='large' color="secondary" sx={{ backgroundColor: "white", width: "50px", height: "50px", padding: "10px", borderRadius: "50%" }} />
-                        <InstagramIcon fontSize='large' color="secondary" sx={{ backgroundColor: "white", width: "50px", height: "50px", padding: "5px", borderRadius: "50%" }} />
-                        <LinkedInIcon fontSize='large' color="secondary" sx={{ backgroundColor: "white", width: "50px", height: "50px", padding: "5px", borderRadius: "50%" }} />
+                        <FacebookRoundedIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "1px", borderRadius: "50%", cursor:"pointer" }} />
+                        <TwitterIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "10px", borderRadius: "50%", cursor:"pointer" }} />
+                        <InstagramIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor:"pointer" }} />
+                        <LinkedInIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor:"pointer" }} />
                     </Box>
                 </Box>
             </Box>
