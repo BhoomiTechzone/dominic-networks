@@ -18,8 +18,8 @@ const Footer = () => {
             <Card sx={{ display: 'flex', justifyContent: "space-between", backgroundColor: "black", flexWrap: "wrap" }}>
                 <CardMedia
                     component="img"
-                    sx={{ width: 320 , height:120}}
-                    
+                    sx={{ width: 320, height: 120 }}
+
                     image={imgl}
                     alt="Live from space album cover"
                 />
@@ -90,18 +90,18 @@ const Footer = () => {
                 </Box>
             </Card>
             <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #9C27B0", backgroundColor: "#212529", p: "2rem " }}>
-                <Typography sx={{ color: "white" }} variant='h6' color="text.secondary">
+                <Typography sx={{ color: "white" }} color="text.secondary">
                     All Right Reserved. ©2023 Dominic Networks.
                 </Typography>
                 <Box sx={{ display: 'flex', justifyContent: "space-between" }}>
-                    <Box sx={{ display: "flex", justifyContent: "space-between", gap: "20px", alignItems: "center" }}>
-                        <Typography sx={{ color: "white" }} variant='h6' color="text.secondary">
+                    <Box sx={{ display: "flex", gap: "10px", alignItems: "center" }}>
+                        <Typography sx={{ color: "white" }} color="text.secondary">
                             Follow Us:
                         </Typography>
-                        <FacebookRoundedIcon fontSize='large' color="secondary" sx={{ backgroundColor: "white", width: "50px", height: "50px", padding: "1px", borderRadius: "50%" }} />
-                        <TwitterIcon fontSize='large' color="secondary" sx={{ backgroundColor: "white", width: "50px", height: "50px", padding: "10px", borderRadius: "50%" }} />
-                        <InstagramIcon fontSize='large' color="secondary" sx={{ backgroundColor: "white", width: "50px", height: "50px", padding: "5px", borderRadius: "50%" }} />
-                        <LinkedInIcon fontSize='large' color="secondary" sx={{ backgroundColor: "white", width: "50px", height: "50px", padding: "5px", borderRadius: "50%" }} />
+                        <FacebookRoundedIcon fontSize='small' color="secondary" sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "1px", borderRadius: "50%" }} />
+                        <TwitterIcon fontSize='small' color="secondary" sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "10px", borderRadius: "50%" }} />
+                        <InstagramIcon fontSize='small' color="secondary" sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%" }} />
+                        <LinkedInIcon fontSize='small' color="secondary" sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%" }} />
                     </Box>
                 </Box>
             </Box>

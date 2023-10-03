@@ -7,6 +7,7 @@ import Overview from './Pages/Overview';
 import Plans from './Pages/Plans';
 import Streaming from './Pages/Streaming';
 import { Routes, Route } from 'react-router-dom';
+import Broadband from './Pages/Broadband';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path="about" element={<About />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/broadband" element={<Broadband />} />
       </Routes>
       <Footer/>
     </div>

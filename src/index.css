@@ -25,7 +25,6 @@ ul li{
 
 .container-plans{
   background-image: url('./image/fiber.jpg');
-  /* width: 100vw; */
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,4 +42,20 @@ ul li{
   align-items: center;
   justify-content: center;
   
+}
+
+.broadband-container{
+  background-image: url('https://www.anonet.in/uploaded_files/individuals_service/broadband-new_1687775580.jpg');
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.happyboy_Image_Container img{
+  transition: all 1s;
+}
+
+.happyboy_Image_Container img:hover{
+  transform: scale(1.1);
 }
