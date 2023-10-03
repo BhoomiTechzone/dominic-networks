@@ -5,14 +5,15 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import './Overview.css'
+import './Overview.css';
+import boyImage from '../image/Untitled111-removebg-preview.png'
 
 const Overview = () => {
     return (
         <Card className='over-view-container' >
             <CardContent sx={{ display: "flex", justifyContent:"space-evenly", alignItems:"center",  flexWrap:"wrap", width:"100%", height:"100%"}}>
                 <Box className="overviewImage-container" >
-                    <img src='https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80' alt='dominicman' backgroundSize="cover" />
+                    <img src={boyImage} alt='dominicman' backgroundSize="cover" />
                 </Box>
                 <Box className="overviewText-container" >
                     <Typography display="inline" variant="h4">
