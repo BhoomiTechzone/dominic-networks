@@ -7,7 +7,7 @@ import Overview from './Pages/Overview';
 import Plans from './Pages/Plans';
 import Streaming from './Pages/Streaming';
 import { Routes, Route } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';  
 
 function App() {
   return (
