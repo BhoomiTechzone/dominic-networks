@@ -1,10 +1,39 @@
 .navbar.active{
   background-color: rgb(61, 60, 60);
+  
 }
 
 .navbar.active a{
-  color: aliceblue !important;
+  /* color: aliceblue !important; */
+  color: white !important;
+}
+.navbar.active .dropdown-item{
+  /* color: aliceblue !important; */
+  color: black !important;
+}
+.navbar.active .dropdown-item:hover{
+  /* color: aliceblue !important; */
+  color: #c53122 !important;
 }
 .MuiToolbar-root  img{
   margin-right: 25px;
+}
+.dropdown-item{
+  width: 300px !important;
+  font-size: 20px;
+  padding-left: 20px !important;
+  /* color: #c32155; */
+}
+.dropdown-item:hover{
+ 
+  color: #c32155 !important;
+}
+.nav-link{
+  font-weight: bold !important;
+}
+.nav-link:hover{
+  color: #c53122 !important;
+}
+.navbar-collapse{
+  padding-left: 200px !important;
 }
