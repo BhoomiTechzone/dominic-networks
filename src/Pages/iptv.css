@@ -1,0 +1,11 @@
+.iptv-header{
+    margin-top: 88px;
+    height: 400px;
+    background: url("/src/image/ct/iptv.png");
+    background-size: cover;
+}
+.iptv-header .container{
+    color: white;
+    padding-top: 120px;
+
+}

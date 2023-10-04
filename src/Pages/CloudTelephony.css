@@ -1,0 +1,11 @@
+.ct-header{
+    margin-top: 88px;
+    height: 400px;
+    background: url("/src/image/ct/ct1.png");
+    background-size: cover;
+}
+.ct-header .container{
+    color: white;
+    padding-top: 120px;
+
+}

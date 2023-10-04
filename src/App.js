@@ -10,6 +10,9 @@ import Streaming from './Pages/Streaming';
 import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import Broadband from './Pages/Broadband';
+import InternetLeaseLine from './Pages/InternetLeaseLine';
+import CloudTelephony from './Pages/CloudTelephony';
+import Iptv from './Pages/Iptv';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/broadband" element={<Broadband />} />
         <Route path='/ott' element={<Ott />} />
+        <Route path='/internetleaseline' element={<InternetLeaseLine/>} />
+        <Route path='/cloudtelephony' element={<CloudTelephony/>} />
+        <Route path='/iptv' element={<Iptv/>} />
       </Routes>
       <Footer/>
     </div>

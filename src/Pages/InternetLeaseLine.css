@@ -1,0 +1,11 @@
+.ill-header{
+    margin-top: 88px;
+    height: 400px;
+    background: url("/src/image/ill/fiber.png");
+    background-size: cover;
+}
+.ill-header .container{
+    color: white;
+    padding-top: 120px;
+
+}
