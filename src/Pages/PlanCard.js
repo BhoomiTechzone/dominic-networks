@@ -72,21 +72,20 @@ const PlanCard = () => {
                                 items: 3
                             }
                         }
-
                     }
 
                 >
                     <div > <div className="card s-card "   >
                         <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                                <Typography variant='h5'>
+                                <Typography sx={{color:"#c53122"}} variant='h4' marginBottom="2px">
                                     Standard
                                 </Typography>
                                 <Box>
-                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h3' color="text.secondary">
                                         ₹ 470
                                     </Typography>
-                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h6' color="text.secondary">
                                         per Month
                                     </Typography>
                                 </Box>
@@ -116,14 +115,14 @@ const PlanCard = () => {
                     <div > <div className="card s-card "   >
                         <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                                <Typography variant='h5'>
-                                    Standard
+                                <Typography sx={{color:"#c53122"}} variant='h4' marginBottom="2px">
+                                    Business
                                 </Typography>
                                 <Box>
-                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
+                                    <Typography  display={'inline'} sx={{ color: "#0D6EFD" }} variant='h3' color="text.secondary">
                                         ₹ 470
                                     </Typography>
-                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h6' color="text.secondary">
                                         per Month
                                     </Typography>
                                 </Box>
@@ -153,14 +152,14 @@ const PlanCard = () => {
                     <div > <div className="card s-card "   >
                         <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                                <Typography variant='h5'>
-                                    Standard
+                                <Typography sx={{color:"#c53122"}} variant='h4'>
+                                    Enterainment
                                 </Typography>
                                 <Box>
-                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h3' color="text.secondary">
                                         ₹ 470
                                     </Typography>
-                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h6' color="text.secondary">
                                         per Month
                                     </Typography>
                                 </Box>

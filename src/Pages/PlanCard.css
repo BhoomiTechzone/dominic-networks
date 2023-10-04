@@ -21,25 +21,6 @@
   align-items: center;
 }
 
-.next-btn p,
-.pre-btn p{
-    font-size: 50px;
-    color: red;
-    cursor: pointer;
-}
-
-.next-btn{
-    right: 0;
-}
-
-.plans-container{
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    scroll-behavior: smooth;
-}
-
 .button-container{
     display: flex;
     flex-direction: column;
@@ -51,7 +32,7 @@
 }
 
 .button-container div:nth-child(1) button:nth-child(1) {
-  background-color: orange;
+  background-color: #0D6EFD;
   border: none;
   padding: 10px 30px;
   font-size: 18px;
@@ -61,7 +42,7 @@
 }
 
 .button-container div:nth-child(1) button:nth-child(1):hover {
-    background-color: #000;
+    background-color: #c53122;
     cursor: pointer;
     transition: 500ms linear;
 }
@@ -78,15 +59,15 @@
 }
 
 .detailsButton button:hover{
-    background-color: orange;
+    background-color: #c53122;
     cursor: pointer;
     transition: 1000ms linear;
 }
 
 .button-container div:last-child button {
-    background-color: orange;
+    background-color: #0D6EFD;
     border: none;
-    padding: 10px 50px;
+    padding: 10px 60px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
@@ -95,7 +76,7 @@
 }
 
 .button-container div:last-child button:hover{
-    background-color: #000;
+    background-color: #c53122;
     cursor: pointer;
     transition: 500ms linear;
 }

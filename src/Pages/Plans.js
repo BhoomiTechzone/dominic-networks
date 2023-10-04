@@ -8,15 +8,15 @@ const Plans = () => {
         <div className='container-plans'>
             <Box sx={{ display: "flex", alignItems: "center", flexDirection:"column" }}>
                 <Box sx={{ display: "flex", alignItems: "center" }}>
-                    <Box sx={{ backgroundColor: "white", width: "2px", height: "30px" }} ></Box>
-                    <Typography color="white" component="div" variant="h5" m="8px">
+                    <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "45px" }} ></Box>
+                    <Typography color="white" component="div" variant="h4" m="8px">
                         Fiber Plans
                     </Typography>
                 </Box>
-                <Typography color="white">
+                <Typography color="#0D6EFD" variant='h5'>
                     Experience lightning-fast internet with
                 </Typography>
-                <Typography color="white">
+                <Typography color="white" variant='h5' fontWeight="bold" marginBottom="1rem">
                     Our Fiber Plans - Choose the right plan for your needs!
                 </Typography>
             </Box>

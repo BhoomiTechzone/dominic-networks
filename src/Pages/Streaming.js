@@ -7,21 +7,18 @@ import './Overview.css'
 const Streaming = () => {
   return (
     <Card>
-      <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column" }}>
+      <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", padding:"2rem 0px" }}>
         <Box sx={{ display: "flex", alignItems: "center" }}>
-          <Box sx={{ backgroundColor: "black", width: "2px", height: "30px" }} ></Box>
-          <Typography color="black" component="div" variant="h5" m="8px">
-            Fiber Plans
+          <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "45px" }} ></Box>
+          <Typography color="black" component="div" variant="h4" m="8px">
+            Now Streaming
           </Typography>
         </Box>
-        <Typography color="black">
+        <Typography color="#0D6EFD" variant='h4'>
           Experience lightning-fast internet with
         </Typography>
-        <Typography color="black">
-          Our Fiber Plans - Choose the right plan for your needs!
-        </Typography>
       </Box>
-      <CardContent sx={{ display: "flex", justifyContent: "space-evenly", alignItems: "center", flexWrap: "wrap", width: "100%", height: "100%" }}>
+      <CardContent sx={{ display: "flex", justifyContent: "space-evenly", alignItems: "center", flexWrap: "wrap", width: "100%", height: "100%", marginBottom:"2rem" }}>
         <Box className="overviewImage-container" >
           <img src='https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80' alt='dominicman' backgroundSize="cover" />
         </Box>

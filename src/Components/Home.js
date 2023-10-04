@@ -93,18 +93,15 @@ const Home = () => {
       <Plans />
       <Streaming />
       <div className=''>
-        <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column" }}>
+        <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", m:"2rem 0px" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            <Box sx={{ backgroundColor: "black", width: "2px", height: "30px" }} ></Box>
+            <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "35px" }} ></Box>
             <Typography color="black" component="div" variant="h5" m="8px">
-              Fiber Plans
+              Customer Testimonials
             </Typography>
           </Box>
-          <Typography color="black">
-            Experience lightning-fast internet with
-          </Typography>
-          <Typography color="black">
-            Our Fiber Plans - Choose the right plan for your needs!
+          <Typography color="#0D6EFD" variant='h4'>
+            What Our Customers are Saying
           </Typography>
         </Box>
         <div style={{ marginBottom: "3rem" }} className="container">
@@ -129,7 +126,21 @@ const Home = () => {
             }
           >
 
-            <div className="card s-card "  >
+            <div style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}} className="card s-card "  >
+              <Box sx={{ backgroundColor: "#f7f5f5" }}>
+                <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
+                  Standard
+                </Typography>
+                <Typography variant='h6' sx={{ textAlign: "center" }} >
+                  Naveen Kumar Gaur
+                </Typography>
+                <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
+                  Happy Customer
+                </Typography>
+              </Box>
+            </div>
+
+            <div style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}} className="card s-card">
               <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", }}>
                 <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
                   Standard
@@ -143,21 +154,7 @@ const Home = () => {
               </Box>
             </div>
 
-            <div className="card s-card">
-              <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", }}>
-                <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
-                  Standard
-                </Typography>
-                <Typography variant='h6' sx={{ textAlign: "center" }} >
-                  Naveen Kumar Gaur
-                </Typography>
-                <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
-                  Happy Customer
-                </Typography>
-              </Box>
-            </div>
-
-            <div className="card s-card ">
+            <div style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}} className="card s-card ">
               <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", }}>
                 <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
                   Standard
@@ -171,8 +168,7 @@ const Home = () => {
               </Box>
             </div>
 
-
-            <div className="card s-card">
+            <div style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}} className="card s-card">
               <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", }}>
                 <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
                   Standard
@@ -185,10 +181,8 @@ const Home = () => {
                 </Typography>
               </Box>
             </div>
-
           </OwlCarousel>
         </div>
-
       </div>
     </>
   )
