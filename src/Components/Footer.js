@@ -83,7 +83,7 @@ const Footer = () => {
                             <b>Head Office : </b> A-36, Sector-63 Noida Uttar Pradesh
                         </Typography>
                         <Typography variant="subtitle1" color="white" component="div">
-                            <b>Call Us: +91-1111111111</b>
+                            <b>Call Us: +91-9838022833</b>
                         </Typography>
                     </CardContent>
                 </Box>
