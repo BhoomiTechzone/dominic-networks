@@ -13,6 +13,7 @@ import Broadband from './Pages/Broadband';
 import InternetLeaseLine from './Pages/InternetLeaseLine';
 import CloudTelephony from './Pages/CloudTelephony';
 import Iptv from './Pages/Iptv';
+import Form from './Pages/Form';
 
 function App() {
   return (
