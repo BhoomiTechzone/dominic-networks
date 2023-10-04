@@ -18,8 +18,7 @@ const Footer = () => {
             <Card sx={{ display: 'flex', justifyContent: "space-between", backgroundColor: "black", flexWrap: "wrap" }}>
                 <CardMedia
                     component="img"
-                    sx={{ width: 320 , height:120}}
-                    
+                    sx={{ width: 420 , height:80}}
                     image={imgl}
                     alt="Live from space album cover"
                 />
@@ -89,7 +88,7 @@ const Footer = () => {
                     </CardContent>
                 </Box>
             </Card>
-            <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #c53122", backgroundColor: "#212529", p: "2rem " }}>
+            <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #0D6EFD", backgroundColor: "#212529", p: "2rem " }}>
                 <Typography sx={{ color: "white", fontSize:"18px" }} color="text.secondary">
                     All Right Reserved. ©2023 Dominic Networks.
                 </Typography>
