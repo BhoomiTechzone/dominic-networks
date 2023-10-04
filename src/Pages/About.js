@@ -102,7 +102,7 @@ const About = () => {
 
                 <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "20px", maxWidth: "800px", m: "0 auto" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
-                        <Typography color="white" component="div" variant="h4">
+                        <Typography color="white" component="div" variant="h4" sx={{}}>
                             Our
                         </Typography>
                         <Typography color="#c53122" component="div" variant="h4" marginLeft="10px">
@@ -125,9 +125,9 @@ const About = () => {
                         </Typography>
                     </Box>
                     <Typography color="" textAlign="left" fontSize="18px" lineHeight="35px" >
-                        With over 20 years of telecommunications expertise, "Owner Name" is a visionary leader in the industry. In 2008, he founded DOMINIC NETWORKING PVT. LTD. to provide top-quality communication solutions that adapt to the evolving needs of businesses and consumers.
-                        Under "CEO name" leadership, Dominic has earned a reputation for delivering reliable phone, data, and messaging solutions, prioritizing an excellent client experience. His passion for technology and innovation has driven the creation of cutting-edge products and services, keeping DOMINIC at the forefront of the rapidly evolving telecom sector.
-                        "CEO NAME" vision is to revolutionize interpersonal connections and communication, believing that technology can enhance accessibility, reliability, and convenience. As the CEO of DOMINIC NETWORKING Pvt. Ltd., he remains dedicated to offering advanced communication solutions that meet the demands of businesses and consumers, envisioning a world where seamless, fast, and efficient communication connects people anytime, anywhere.
+                        With over 20 years of telecommunications expertise, "Ashok Kumar Gupta" is a visionary leader in the industry. In 2008, he founded DOMINIC NETWORKING PVT. LTD. to provide top-quality communication solutions that adapt to the evolving needs of businesses and consumers.
+                        Under "Ashish Aggarwal" leadership, Dominic has earned a reputation for delivering reliable phone, data, and messaging solutions, prioritizing an excellent client experience. His passion for technology and innovation has driven the creation of cutting-edge products and services, keeping DOMINIC at the forefront of the rapidly evolving telecom sector.
+                        "Ashish Aggarwal" vision is to revolutionize interpersonal connections and communication, believing that technology can enhance accessibility, reliability, and convenience. As the CEO of DOMINIC NETWORKING Pvt. Ltd., he remains dedicated to offering advanced communication solutions that meet the demands of businesses and consumers, envisioning a world where seamless, fast, and efficient communication connects people anytime, anywhere.
                     </Typography>
                 </Box>
             </div>

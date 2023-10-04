@@ -40,3 +40,19 @@
 .navbar-collapse{
   padding-left: 200px !important;
 }
+@media (min-width: 250px) and (max-width:500px) {
+  .navbar img{
+    height: 40px;
+  }
+  .navbar-collapse{
+    padding: 20px !important;
+
+  }
+  .navbar{
+    background-color: white;
+  }
+  /* .navbar-nav-scroll{
+    max-height: 400px !important;
+  } */
+
+}

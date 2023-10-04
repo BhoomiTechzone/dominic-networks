@@ -37,7 +37,7 @@ ul li{
   background-image: url('./image/fiber.jpg');
   /* width: 100vw; */
   /* background-color: black; */
-  height: 80vh;
+  /* height: 80vh; */
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
