@@ -78,15 +78,16 @@ const Navbars = () => {
         
         <NavDropdown title="For Individual" id="navbarScrollingDropdown">
           <NavDropdown.Item href="/broadband">Broadband</NavDropdown.Item>
-          <NavDropdown.Item href="#action4">OTT</NavDropdown.Item>
+          <NavDropdown.Item href="/ott">OTT</NavDropdown.Item>
+          <NavDropdown.Item href="/iptv">IPTV</NavDropdown.Item>
           {/* <NavDropdown.Divider />
           <NavDropdown.Item href="#action5">
             Something else here
           </NavDropdown.Item> */}
         </NavDropdown>
         <NavDropdown title="For Business" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">Internet Lease Line</NavDropdown.Item>
-          <NavDropdown.Item href="#action4">Cloud Telephony</NavDropdown.Item>
+          <NavDropdown.Item href="/internetleaseline">Internet Lease Line</NavDropdown.Item>
+          <NavDropdown.Item href="/cloudtelephony">Cloud Telephony</NavDropdown.Item>
           {/* <NavDropdown.Divider />
           <NavDropdown.Item href="#action5">
             Something else here
