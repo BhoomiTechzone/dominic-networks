@@ -90,18 +90,26 @@ const Footer = () => {
                 </Box>
             </Card>
             <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #c53122", backgroundColor: "#212529", p: "2rem " }}>
-                <Typography sx={{ color: "white" }} variant='h6' color="text.secondary">
+                <Typography sx={{ color: "white", fontSize:"18px" }} color="text.secondary">
                     All Right Reserved. ©2023 Dominic Networks.
                 </Typography>
                 <Box sx={{ display: 'flex', justifyContent: "space-between" }}>
                     <Box sx={{ display: "flex", justifyContent: "space-between", gap: "20px", alignItems: "center" }}>
-                        <Typography sx={{ color: "white" }} variant='h6' color="text.secondary">
+                        <Typography sx={{ color: "white", fontSize:"18px" }} color="text.secondary">
                             Follow Us:
                         </Typography>
-                        <FacebookRoundedIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "1px", borderRadius: "50%", cursor:"pointer" }} />
-                        <TwitterIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "10px", borderRadius: "50%", cursor:"pointer" }} />
-                        <InstagramIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor:"pointer" }} />
-                        <LinkedInIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor:"pointer" }} />
+                        <a href='https://www.facebook.com/dnpl.wani' target="_blank" rel="noreferrer">
+                          <FacebookRoundedIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "1px", borderRadius: "50%", cursor:"pointer" }} />
+                        </a>
+                        <a href='' target="_blank" rel="noreferrer">
+                          <TwitterIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "10px", borderRadius: "50%", cursor:"pointer" }} />
+                        </a>
+                        <a href='https://www.instagram.com/dnpl.wani/' target="_blank" rel="noreferrer">
+                          <InstagramIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor:"pointer" }} />
+                        </a>
+                        <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
+                          <LinkedInIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor:"pointer" }} />
+                        </a>
                     </Box>
                 </Box>
             </Box>
