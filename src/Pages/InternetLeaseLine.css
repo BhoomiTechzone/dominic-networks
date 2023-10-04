@@ -9,3 +9,16 @@
     padding-top: 120px;
 
 }
+.ill-content{
+    padding:  30px;
+}
+.ill-content-left{
+    padding-top: 30px;
+}
+.ill-content-left-img img{
+    padding-top: 30px;
+    transition: all ease 1s;
+}
+.ill-content-left-img img:hover {
+    transform: scale(1.1);
+}

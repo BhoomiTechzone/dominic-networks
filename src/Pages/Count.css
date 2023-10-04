@@ -1,0 +1,12 @@
+.count{
+    background-color: #07b9e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.countb{
+    padding-left: 10px;
+    /* width: 80%; */
+    /* text-align: center; */
+    border-left: 2px solid red ;
+}
