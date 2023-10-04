@@ -6,7 +6,6 @@ import Streaming from '../Pages/Streaming';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { useState } from 'react';
-import CardContent from '@mui/material/CardContent';
 import '../Pages/PlanCard.css';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -93,7 +92,7 @@ const Home = () => {
       <Plans />
       <Streaming />
       <div className=''>
-        <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", m:"2rem 0px" }}>
+        <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", m: "2rem 0px" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
             <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "35px" }} ></Box>
             <Typography color="black" component="div" variant="h5" m="8px">
@@ -126,10 +125,10 @@ const Home = () => {
             }
           >
 
-            <div style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}} className="card s-card "  >
-              <Box sx={{ backgroundColor: "#f7f5f5" }}>
-                <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
-                  Standard
+            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", height:"300px", backgroundColor: "#f7f5f5", }} className="card s-card "  >
+              <Box sx={{ borderRadius: "10px", borderRadius: "10px", paddingTop:"2rem" }}>
+                <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
+                  I've never experienced a single outage with Dominic Networks' s Fiber Internet. It's made working from home a breeze, and I can't thank them enough.
                 </Typography>
                 <Typography variant='h6' sx={{ textAlign: "center" }} >
                   Naveen Kumar Gaur
@@ -140,10 +139,10 @@ const Home = () => {
               </Box>
             </div>
 
-            <div style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}} className="card s-card">
-              <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", }}>
-                <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
-                  Standard
+            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", height:"300px", backgroundColor: "#f7f5f5", }} className="card s-card">
+              <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", paddingTop:"2rem" }}>
+                <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
+                  If you're looking for the best Internet Fiber service in town, look no further than Dominic Networks. They've set the bar high for speed and reliability.
                 </Typography>
                 <Typography variant='h6' sx={{ textAlign: "center" }} >
                   Naveen Kumar Gaur
@@ -154,10 +153,10 @@ const Home = () => {
               </Box>
             </div>
 
-            <div style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}} className="card s-card ">
-              <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", }}>
-                <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
-                  Standard
+            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", height:"300px", backgroundColor: "#f7f5f5", }} className="card s-card ">
+              <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", paddingTop:"2rem" }}>
+                <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
+                  Awesome customer support, they fixed any issue with in given time 
                 </Typography>
                 <Typography variant='h6' sx={{ textAlign: "center" }} >
                   Gaur
@@ -168,10 +167,10 @@ const Home = () => {
               </Box>
             </div>
 
-            <div style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}} className="card s-card">
-              <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", }}>
-                <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
-                  Standard
+            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", height:"300px", backgroundColor: "#f7f5f5", }} className="card s-card">
+              <Box sx={{ backgroundColor: "#f7f5f5", borderRadius: "10px", paddingTop:"2rem" }}>
+                <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
+                  Awesome customer support, they fixed any issue with in given time 
                 </Typography>
                 <Typography variant='h6' sx={{ textAlign: "center" }} >
                   Kumar Gaur

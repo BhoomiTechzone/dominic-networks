@@ -4,7 +4,6 @@ import { BsFillChatDotsFill } from 'react-icons/bs';
 import './Contact.css'
 import CallRoundedIcon from '@mui/icons-material/CallRounded';
 import AddLocationRoundedIcon from '@mui/icons-material/AddLocationRounded';
-import FavoriteIcon from '@mui/icons-material/Favorite';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -45,7 +44,7 @@ const Contact = () => {
 
     const styles = {
         // bgColor: 'white',
-        titleTextColor: "#c53122",
+        titleTextColor: "#0D6EFD",
         rowTitleColor: "black",
         titleTextAlign: "center"
         // rowContentColor: 'grey',
@@ -60,7 +59,7 @@ const Contact = () => {
     return (
       <>
       <Navbars/>
-        <div className='contact-body' style={{marginTop:"5rem"}}>
+        <div className='contact-body' style={{marginTop:"6rem"}}>
             <div className="container-fluid contact-page">
                 <div className="row contact-faq-row">
                     <div className="col-lg-9 contact-faq">
@@ -77,8 +76,6 @@ const Contact = () => {
                             <h1> Solution</h1>
                             <h2>to your queries</h2>
                             <h3><BsFillChatDotsFill />Chat with us</h3>
-
-
                         </div>
                     </div>
                 </div>
@@ -99,14 +96,9 @@ const Contact = () => {
 
                                 <div className="section-title">
                                     <h2><span>Send us a mail</span></h2>
-
                                 </div>
                             </div>
-
-
                             <div className="container ">
-
-
                                 <form action="" method="post" role="form" className="php-email-form">
                                     <div className="row">
                                         <div className="col-md-6 form-group">
@@ -140,7 +132,7 @@ const Contact = () => {
                                 <div className="col-lg-6">
                                     <div className="row">
                                         <div className="col-lg-3">
-                                            <CallRoundedIcon sx={{ color: "#c53122", fontSize: '50px' }} />
+                                            <CallRoundedIcon sx={{ color: "#0D6EFD", fontSize: '50px' }} />
                                         </div>
                                         <div className="col-lg-9">
                                             <p> <strong>Phone:</strong>+91-##########
@@ -153,7 +145,7 @@ const Contact = () => {
                                 <div className="col-lg-6">
                                     <div className="row">
                                         <div className="col-lg-3">
-                                            <AddLocationRoundedIcon sx={{ color: "#c53122", fontSize: '50px' }} />
+                                            <AddLocationRoundedIcon sx={{ color: "#0D6EFD", fontSize: '50px' }} />
                                         </div>
                                         <div className="col-lg-9">
                                             <p> <strong>Address:</strong>xyz street abc road def pin
@@ -165,11 +157,21 @@ const Contact = () => {
 
                                 <h2>Follow us on social networks</h2>
                                 <div className="contact-social-icon-box">
-                                    <FacebookIcon fontSize='large' sx={{ color: "#c53122", width: "20%" }} />
-                                    <InstagramIcon fontSize='large' sx={{ color: "#c53122", width: "20%" }} />
-                                    <LinkedInIcon fontSize='large' sx={{ color: "#c53122", width: "20%" }} />
-                                    <YouTubeIcon fontSize='large' sx={{ color: "#c53122", width: "20%" }} />
-                                    <TwitterIcon fontSize='large' sx={{ color: "#c53122", width: "20%" }} />
+                                  <a href='https://www.facebook.com/dnpl.wani' target="_blank" rel="noreferrer">
+                                    <FacebookIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor:"pointer" }} />
+                                  </a>
+                                  <a href='https://www.instagram.com/dnpl.wani/' target="_blank" rel="noreferrer">
+                                    <InstagramIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor:"pointer" }} /> 
+                                  </a>
+                                  <a>
+                                    <LinkedInIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor:"pointer" }} />
+                                  </a>
+                                  <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
+                                    <YouTubeIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor:"pointer" }} />
+                                  </a>
+                                  <a>
+                                    <TwitterIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor:"pointer" }} />
+                                  </a>
                                 </div>
                             </div>
                         </div>
