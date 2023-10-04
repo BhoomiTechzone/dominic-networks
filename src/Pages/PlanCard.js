@@ -1,13 +1,9 @@
-
 import * as React from 'react';
 import { useState } from 'react';
 import Box from '@mui/material/Box';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './PlanCard.css';
-import $ from 'jquery';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -58,257 +54,144 @@ const PlanCard = () => {
 
     return (
         <>
-        <div className="container">
-        <OwlCarousel
-            className="owl-theme"
-            loop
-            nav
-            margin={10}
-            center
-            dots={false}
-            autoplay
-            responsive={
-                {
-                    '1': {
-                        items: 1
-                    },
-                    '1025': {
-                        items: 3
+            <div className="container">
+                <OwlCarousel
+                    className="owl-theme"
+                    loop
+                    nav
+                    margin={10}
+                    center
+                    dots={false}
+                    autoplay
+                    responsive={
+                        {
+                            '1': {
+                                items: 1
+                            },
+                            '1025': {
+                                items: 3
+                            }
+                        }
+
                     }
-                }
 
-            }
-
-        >
-            <div > <div className="card s-card "   >
-                <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
-                    <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                        <Typography variant='h5'>
-                            Standard
-                        </Typography>
-                        <Box>
-                            <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
-                                ₹ 470
-                            </Typography>
-                            <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
-                                per Month
-                            </Typography>
+                >
+                    <div > <div className="card s-card "   >
+                        <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
+                            <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                <Typography variant='h5'>
+                                    Standard
+                                </Typography>
+                                <Box>
+                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
+                                        ₹ 470
+                                    </Typography>
+                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
+                                        per Month
+                                    </Typography>
+                                </Box>
+                            </CardContent>
+                            <div className='button-container'>
+                                <div>
+                                    <button>Speed 200 Mbps</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>Unlimited Data</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>Unlimited Voice Call</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>300+ Live Channels</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>Free OTT Bonanza</button>
+                                </div>
+                                <div>
+                                    <button>GET STARTED</button>
+                                </div>
+                            </div>
                         </Box>
-                    </CardContent>
-                    <div className='button-container'>
-                        <div>
-                            <button>Speed 200 Mbps</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>Unlimited Data</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>Unlimited Voice Call</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>300+ Live Channels</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>Free OTT Bonanza</button>
-                        </div>
-                        <div>
-                            <button>GET STARTED</button>
-                        </div>
-                    </div>
-                </Box>
-            </div></div>
-            <div > <div className="card s-card "   >
-                <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
-                    <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                        <Typography variant='h5'>
-                            Standard
-                        </Typography>
-                        <Box>
-                            <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
-                                ₹ 470
-                            </Typography>
-                            <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
-                                per Month
-                            </Typography>
+                    </div></div>
+                    <div > <div className="card s-card "   >
+                        <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
+                            <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                <Typography variant='h5'>
+                                    Standard
+                                </Typography>
+                                <Box>
+                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
+                                        ₹ 470
+                                    </Typography>
+                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
+                                        per Month
+                                    </Typography>
+                                </Box>
+                            </CardContent>
+                            <div className='button-container'>
+                                <div>
+                                    <button>Speed 200 Mbps</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>Unlimited Data</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>Unlimited Voice Call</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>300+ Live Channels</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>Free OTT Bonanza</button>
+                                </div>
+                                <div>
+                                    <button>GET STARTED</button>
+                                </div>
+                            </div>
                         </Box>
-                    </CardContent>
-                    <div className='button-container'>
-                        <div>
-                            <button>Speed 200 Mbps</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>Unlimited Data</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>Unlimited Voice Call</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>300+ Live Channels</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>Free OTT Bonanza</button>
-                        </div>
-                        <div>
-                            <button>GET STARTED</button>
-                        </div>
-                    </div>
-                </Box>
-            </div></div>
-            <div > <div className="card s-card "   >
-                <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
-                    <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                        <Typography variant='h5'>
-                            Standard
-                        </Typography>
-                        <Box>
-                            <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
-                                ₹ 470
-                            </Typography>
-                            <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
-                                per Month
-                            </Typography>
+                    </div></div>
+                    <div > <div className="card s-card "   >
+                        <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
+                            <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                                <Typography variant='h5'>
+                                    Standard
+                                </Typography>
+                                <Box>
+                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
+                                        ₹ 470
+                                    </Typography>
+                                    <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
+                                        per Month
+                                    </Typography>
+                                </Box>
+                            </CardContent>
+                            <div className='button-container'>
+                                <div>
+                                    <button>Speed 200 Mbps</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>Unlimited Data</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>Unlimited Voice Call</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>300+ Live Channels</button>
+                                </div>
+                                <div className='detailsButton'>
+                                    <button>Free OTT Bonanza</button>
+                                </div>
+                                <div>
+                                    <button>GET STARTED</button>
+                                </div>
+                            </div>
                         </Box>
-                    </CardContent>
-                    <div className='button-container'>
-                        <div>
-                            <button>Speed 200 Mbps</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>Unlimited Data</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>Unlimited Voice Call</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>300+ Live Channels</button>
-                        </div>
-                        <div className='detailsButton'>
-                            <button>Free OTT Bonanza</button>
-                        </div>
-                        <div>
-                            <button>GET STARTED</button>
-                        </div>
-                    </div>
-                </Box>
-            </div></div>
+                    </div></div>
 
 
-        </OwlCarousel>
-        </div>
-            {/* <Box className="main-planCard-container">
+                </OwlCarousel>
+            </div>
 
-                <button className='pre-btn'><p>&lt;</p></button>
-                <button className='next-btn'><p>&gt;</p></button>
-                <Box className="plans-container" >
-                    <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
-                        <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                            <Typography variant='h5'>
-                                Standard
-                            </Typography>
-                            <Box>
-                                <Typography display={'inline'} sx={{ color: "orange" }} variant='h3' color="text.secondary">
-                                    ₹ 470
-                                </Typography>
-                                <Typography display={'inline'} sx={{ color: "orange" }} variant='h6' color="text.secondary">
-                                    per Month
-                                </Typography>
-                            </Box>
-                        </CardContent>
-                        <div className='button-container'>
-                            <div>
-                                <button>Speed 200 Mbps</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>Unlimited Data</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>Unlimited Voice Call</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>300+ Live Channels</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>Free OTT Bonanza</button>
-                            </div>
-                            <div>
-                                <button>GET STARTED</button>
-                            </div>
-                        </div>
-                    </Box>
-
-                    <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
-                        <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                            <Typography variant='h5'>
-                                Business
-                            </Typography>
-                            <Box>
-                                <Typography display={'inline'} sx={{ mb: 1.5, color: "orange" }} variant='h3' color="text.secondary">
-                                    ₹ 470
-                                </Typography>
-                                <Typography display={'inline'} sx={{ mb: 1.5, color: "orange" }} variant='h6' color="text.secondary">
-                                    per Month
-                                </Typography>
-                            </Box>
-                        </CardContent>
-                        <div className='button-container'>
-                            <div>
-                                <button>Speed 300 Mbps</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>Unlimited Data</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>Unlimited Voice Call</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>300+ Live Channels</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>Free OTT Bonanza</button>
-                            </div>
-                            <div>
-                                <button>GET STARTED</button>
-                            </div>
-                        </div>
-                    </Box>
-
-                    <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
-                        <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                            <Typography variant='h5'>
-                                Standard
-                            </Typography>
-                            <Box>
-                                <Typography display={'inline'} sx={{ mb: 1.5, color: "orange" }} variant='h3' color="text.secondary">
-                                    ₹ 470
-                                </Typography>
-                                <Typography display={'inline'} sx={{ mb: 1.5, color: "orange" }} variant='h6' color="text.secondary">
-                                    per Month
-                                </Typography>
-                            </Box>
-                        </CardContent>
-                        <div className='button-container'>
-                            <div>
-                                <button>Speed 200 Mbps</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>Unlimited Data</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>Unlimited Voice Call</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>300+ Live Channels</button>
-                            </div>
-                            <div className='detailsButton'>
-                                <button>Free OTT Bonanza</button>
-                            </div>
-                            <div>
-                                <button>GET STARTED</button>
-                            </div>
-                        </div>
-                    </Box>
-                </Box>
-            </Box> */}
         </>
     )
 }
