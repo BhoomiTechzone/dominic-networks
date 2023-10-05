@@ -4,16 +4,13 @@ import Home from './Components/Home';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Ott from './Pages/Ott'
-import Overview from './Pages/Overview';
-import Plans from './Pages/Plans';
-import Streaming from './Pages/Streaming';
 import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import Broadband from './Pages/Broadband';
 import InternetLeaseLine from './Pages/InternetLeaseLine';
 import CloudTelephony from './Pages/CloudTelephony';
 import Iptv from './Pages/Iptv';
-import Form from './Pages/Form';
+
 
 function App() {
   return (
