@@ -13,10 +13,10 @@ const Plans = () => {
                         Fiber Plans
                     </Typography>
                 </Box>
-                <Typography color="#0D6EFD" variant='h5'>
+                <Typography color="#0D6EFD" variant='h5' textAlign="center">
                     Experience lightning-fast internet with
                 </Typography>
-                <Typography color="white" variant='h5' fontWeight="bold" marginBottom="1rem">
+                <Typography color="white" variant='h5' fontWeight="bold" marginBottom="1rem" textAlign="center">
                     Our Fiber Plans - Choose the right plan for your needs!
                 </Typography>
             </Box>

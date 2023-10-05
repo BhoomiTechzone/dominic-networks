@@ -1,18 +1,21 @@
 .navbar.active{
-  background-color: rgb(61, 60, 60);
+  background-color: #0D6EFD;
   
 }
 .navbar{
   box-shadow: 0px 10px 10px -15px #111;
 }
 
+.navbar a{
+  color: white !important;
+}
+
 .navbar.active a{
-  /* color: aliceblue !important; */
   color: white !important;
 }
 .navbar.active .dropdown-item{
   /* color: aliceblue !important; */
-  color: black !important;
+  color: rgb(229, 15, 15) !important;
 }
 .navbar.active .dropdown-item:hover{
   /* color: aliceblue !important; */
@@ -28,7 +31,6 @@
   /* color: #c32155; */
 }
 .dropdown-item:hover{
- 
   color: #c32155 !important;
 }
 .nav-link{
@@ -51,8 +53,7 @@
   .navbar{
     background-color: white;
   }
-  /* .navbar-nav-scroll{
-    max-height: 400px !important;
-  } */
-
+  .navbar a{
+    color: black !important;
+  }
 }
