@@ -5,84 +5,14 @@ import Plans from '../Pages/Plans';
 import Streaming from '../Pages/Streaming';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { useState } from 'react';
 import '../Pages/PlanCard.css';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-const feedData = [
-  {
-    review: 'Happy Customer',
-    name: 'Naveen Kumar Gaur',
-    feedback: 'we'
-  },
-  {
-    img: '',
-    title: '',
-  },
-  {
-    img: '',
-    title: '',
-  },
-  {
-    img: '',
-    title: '',
-  },
-  {
-    img: '',
-    title: '',
-  },
-  {
-    img: '',
-    title: '',
-  },
-];
-
 
 const Home = () => {
-
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
-  var settings = {
-    // className: "center",
-    centerMode: true,
-    autoplay: true,
-    infinite: true,
-    // centerPadding: "60px",
-    slidesToShow: 2,
-    speed: 1000,
-    responsive: [
-      {
-        breakpoint: 2000,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
-
+  
   return (
     <>
       <div className='home-container'>
@@ -126,7 +56,7 @@ const Home = () => {
           >
 
             <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", height:"300px", backgroundColor: "#f7f5f5", }} className="card s-card "  >
-              <Box sx={{ borderRadius: "10px", borderRadius: "10px", paddingTop:"2rem" }}>
+              <Box sx={{ borderRadius: "10px", paddingTop:"2rem" }}>
                 <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
                   I've never experienced a single outage with Dominic Networks' s Fiber Internet. It's made working from home a breeze, and I can't thank them enough.
                 </Typography>

@@ -1,6 +1,4 @@
 import React from 'react';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 import boyPic from '../image/Untitled111-removebg-preview.png'
 import Navbars from '../Components/Navbar'
 import "./Broadband.css"
