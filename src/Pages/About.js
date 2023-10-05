@@ -7,11 +7,10 @@ import Navbars from '../Components/Navbar';
 const About = () => {
     return ( 
         <>
-        <Navbars />
-           
+        <Navbars /> 
             <Box className="Footer-Header-Container">
-                <Box sx={{ textAlign: "center" , marginTop:"8rem"}}>
-                    <Box sx={{textAlign: "center", backgroundColor:"#000"}}>
+                <Box sx={{ textAlign: "center" , marginTop:"5.5rem"}}>
+                    <Box sx={{textAlign: "center", backgroundColor:"#0D6EFD"}}>
                       <Typography p="1rem" color="white" variant='h4'>We won't stop till we answer all your questions!</Typography>
                     </Box>
                     <Typography sx={{ color: "#c53122", mt:"2rem" }} variant='h4'>Dominic Networks</Typography>
@@ -19,7 +18,7 @@ const About = () => {
                 </Box>
             </Box>
 
-            <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 4rem", m: "10px auto 0px", backgroundColor:"#C53122", color:"white" }}>
+            <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 3rem", m: "10px auto 0px", backgroundColor:"#C53122", color:"white" }}>
                 <Typography color="" textAlign="left" fontSize="18px" lineHeight="30px" >
                 Creating a website for a fiber and internet service provider is an important task to showcase your services and connect with potential customers. Here are some steps and considerations to help you get started:
                 <br />

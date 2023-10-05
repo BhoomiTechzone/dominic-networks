@@ -1,9 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './Overview.css';
 import boyImage from '../image/Untitled111-removebg-preview.png'
@@ -18,12 +16,12 @@ const Overview = () => {
                 <Box className="overviewText-container" >
                     <Typography display="inline" variant="h4">
                         SURF WITH
-                        <Typography variant="h4" display="inline" sx={{ color: "warning.main" }}> EASE</Typography>
+                        <Typography variant="h4" display="inline" sx={{ color: "#0D6EFD" }}> EASE</Typography>
                     </Typography>
                     <Typography variant="h5" mt="10px">
                         Stay Connected, Stay Ahead
                     </Typography>
-                    <Box sx={{display:"flex", justifyContent:"space-between",flexWrap:"wrap", fontSize:"24px", mt:"20px"}}>
+                    <Box sx={{display:"flex", justifyContent:"space-between",flexWrap:"wrap", fontSize:"20px", mt:"20px"}}>
                         <ul>
                             <li>Affordable Pricing.</li>
                             <li>Unlimited download with all plans</li>

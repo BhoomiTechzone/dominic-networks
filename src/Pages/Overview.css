@@ -5,7 +5,7 @@
 }
 
 .overviewImage-container{
-   width: 40vw;  
+   width: 40vw; 
 }
 
 .overviewImage-container > img{
@@ -20,8 +20,7 @@
 
 @media only screen and (max-width: 800px){
     .over-view-container{
-        height: 100%;  
-        padding: 10px;  
+        height: 100%;    
     }
 
     .overviewImage-container{

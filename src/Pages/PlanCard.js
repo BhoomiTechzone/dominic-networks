@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { useState } from 'react';
 import Box from '@mui/material/Box';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -11,47 +10,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 
 const PlanCard = () => {
-    const [index, setIndex] = useState(0);
-
-    const handleSelect = (selectedIndex) => {
-        setIndex(selectedIndex);
-    };
-    var settings = {
-        // className: "center",
-        centerMode: true,
-        autoplay: true,
-        infinite: true,
-        // centerPadding: "60px",
-        slidesToShow: 2,
-        speed: 1000,
-        responsive: [
-            {
-                breakpoint: 2000,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    };
-
+    
     return (
         <>
             <div className="container">
@@ -73,11 +32,10 @@ const PlanCard = () => {
                             }
                         }
                     }
-
                 >
-                    <div > <div className="card s-card "   >
+                    <div><div className="card s-card "   >
                         <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
-                            <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                            <CardContent sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                                 <Typography sx={{color:"#c53122"}} variant='h4' marginBottom="2px">
                                     Standard
                                 </Typography>
@@ -112,7 +70,7 @@ const PlanCard = () => {
                             </div>
                         </Box>
                     </div></div>
-                    <div > <div className="card s-card "   >
+                    <div> <div className="card s-card "   >
                         <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                                 <Typography sx={{color:"#c53122"}} variant='h4' marginBottom="2px">
@@ -149,7 +107,7 @@ const PlanCard = () => {
                             </div>
                         </Box>
                     </div></div>
-                    <div > <div className="card s-card "   >
+                    <div> <div className="card s-card "   >
                         <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                                 <Typography sx={{color:"#c53122"}} variant='h4'>

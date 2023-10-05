@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import imgl from '../image/logo/logo.png'
@@ -15,7 +15,7 @@ const Footer = () => {
 
     return (
         <>
-            <Card sx={{ display: 'flex', justifyContent: "space-between", backgroundColor: "black", flexWrap: "wrap" }}>
+            <Card sx={{ display: 'flex', justifyContent: "space-between", alignItems:"center", backgroundColor: "#0D6EFD", flexWrap: "wrap" }}>
                 <CardMedia
                     component="img"
                     sx={{ width: 420, height: 80 }}
@@ -88,26 +88,26 @@ const Footer = () => {
                     </CardContent>
                 </Box>
             </Card>
-            <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #0D6EFD", backgroundColor: "#212529", p: "2rem " }}>
-                <Typography sx={{ color: "white", fontSize: "18px" }} color="text.secondary">
+            <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #fff", backgroundColor: "#0D6EFD", p: "0.5rem 2rem" }}>
+                <Typography sx={{ color: "white", fontSize: "16px" }} color="text.secondary">
                     All Right Reserved. ©2023 Dominic Networks.
                 </Typography>
                 <Box sx={{ display: 'flex', justifyContent: "space-between" }}>
                     <Box sx={{ display: "flex", justifyContent: "space-between", gap: "20px", alignItems: "center" }}>
-                        <Typography sx={{ color: "white", fontSize: "18px" }} color="text.secondary">
+                        <Typography sx={{ color: "white", fontSize: "16px" }} color="text.secondary">
                             Follow Us:
                         </Typography>
                         <a href='https://www.facebook.com/dnpl.wani' target="_blank" rel="noreferrer">
-                            <FacebookRoundedIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "1px", borderRadius: "50%", cursor: "pointer" }} />
+                            <FacebookRoundedIcon fontSize='large' sx={{ color: "white", width: "40px", height: "40px", padding: "1px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
-                            <TwitterIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "10px", borderRadius: "50%", cursor: "pointer" }} />
+                            <YouTubeIcon fontSize='large' sx={{ color: "white", width: "60px", height: "60px", padding: "10px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.instagram.com/dnpl.wani/' target="_blank" rel="noreferrer">
-                            <InstagramIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
+                            <InstagramIcon fontSize='large' sx={{ color: "white", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
-                            <LinkedInIcon fontSize='large' sx={{ backgroundColor: "white", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
+                            <LinkedInIcon fontSize='large' sx={{ color: "white", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                     </Box>
                 </Box>
