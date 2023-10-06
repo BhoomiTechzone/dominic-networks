@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import './Overview.css';
 import lady from '../image/laptop women.PNG';
+import gif from '../image/Enjoy.gif'
 
 const Streaming = () => {
   return (
@@ -24,23 +25,9 @@ const Streaming = () => {
           <img src={lady} alt='dominicman' backgroundSize="cover" />
         </Box>
         <Box className="overviewText-container" >
-          <Typography display="inline" variant="h4">
-            SURF WITH
-            <Typography variant="h4" display="inline" sx={{ color: "#0D6EFD" }}> EASE</Typography>
-          </Typography>
-          <Typography variant="h4" mt="10px">
-            Stay Connected, Stay Ahead
-          </Typography>
-          <Box sx={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", fontSize: "20px", mt: "20px" }}>
-            <ul>
-              <li>Affordable Pricing.</li>
-              <li>Unlimited download with all plans</li>
-              <li>4k & 8k apps with every plan</li>
-              <li>Free OTT apps with every plan</li>
-              <li>Free 300+ Tv Channels with every plan</li>
-            </ul>
+        <img src={gif} alt='dominicgif' backgroundSize="cover" />
           </Box>
-        </Box>
+        
       </CardContent>
     </Card>
   )

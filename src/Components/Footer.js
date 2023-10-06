@@ -9,13 +9,14 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import imgl from '../image/logo/logo.png'
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
 
     return (
         <>
-            <Card sx={{ display: 'flex', justifyContent: "space-between", alignItems:"center", backgroundColor: "#0D6EFD", flexWrap: "wrap" }}>
+            <Card sx={{ display: 'flex', justifyContent: "space-between", alignItems: "center", backgroundColor: "#0D6EFD", flexWrap: "wrap" }}>
                 <CardMedia
                     component="img"
                     sx={{ width: 420, height: 80 }}
@@ -23,7 +24,7 @@ const Footer = () => {
                     alt="Live from space album cover"
                 />
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                    <CardContent sx={{ flex: '1' }}>
+                    <CardContent sx={{ flex: '1', width: "100%" }}>
                         <Box sx={{ display: "flex", alignItems: "center" }}>
                             <Box sx={{ backgroundColor: "white", width: "2px", height: "30px" }} ></Box>
                             <Typography color="white" component="div" variant="h5" m="8px">
@@ -31,25 +32,35 @@ const Footer = () => {
                             </Typography>
                         </Box>
                         <Typography sx={{ borderBottom: "1px dashed white" }} p="2px 0px" variant="subtitle1" color="white" component="div">
-                            Home
+                            <Link to="/" className='flink'>
+                                Home
+                            </Link>
                         </Typography>
                         <Typography sx={{ borderBottom: "1px dashed white" }} p="2px 0px" variant="subtitle1" color="white" component="div">
-                            About Us
+                            <Link to="/about" className='flink'>
+                                About Us
+                            </Link>
                         </Typography>
                         <Typography sx={{ borderBottom: "1px dashed white" }} p="2px 0px" variant="subtitle1" color="white" component="div">
-                            For Individual
+                            <Link to="/broadband" className='flink'>
+                                For Individual
+                            </Link>
                         </Typography>
                         <Typography sx={{ borderBottom: "1px dashed white" }} p="2px 0px" variant="subtitle1" color="white" component="div">
-                            For Business
+                            <Link to="/internetleaseline" className='flink'>
+                                For Business
+                            </Link>
                         </Typography>
                         <Typography sx={{ borderBottom: "1px dashed white" }} p="2px 0px" variant="subtitle1" color="white" component="div">
-                            Contact Us
+                            <Link to="/contact" className='flink'>
+                                Contact Us
+                            </Link>
                         </Typography>
                     </CardContent>
                 </Box>
 
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                    <CardContent sx={{ flex: '1' }}>
+                    <CardContent sx={{ flex: '1', width: "100%" }}>
                         <Box sx={{ display: "flex", alignItems: "center" }}>
                             <Box sx={{ backgroundColor: "white", width: "2px", height: "30px" }} ></Box>
                             <Typography color="white" component="div" variant="h5" m="8px">
@@ -57,19 +68,25 @@ const Footer = () => {
                             </Typography>
                         </Box>
                         <Typography sx={{ borderBottom: "1px dashed white", cursor: 'pointer' }} p="2px 0px" variant="subtitle1" color="white" component="div">
-                            Terms and Conditions
+                            <Link to="/contact" className='flink'>
+                                Terms and Conditions
+                            </Link>
                         </Typography>
                         <Typography sx={{ borderBottom: "1px dashed white", cursor: 'pointer' }} p="2px 0px" variant="subtitle1" color="white" component="div">
-                            Privacy Policy
+                            <Link to="/contact" className='flink'>
+                                Privacy Policy
+                            </Link>
                         </Typography>
                         <Typography sx={{ borderBottom: "1px dashed white", cursor: 'pointer' }} p="2px 0px" variant="subtitle1" color="white" component="div">
-                            Refund Policy
+                            <Link to="/contact" className='flink'>
+                                Refund Policy
+                            </Link>
                         </Typography>
                     </CardContent>
                 </Box>
 
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                    <CardContent sx={{ flex: '1', width: "80%" }}>
+                    <CardContent sx={{ flex: '1', width: "100%" }}>
                         <Box sx={{ display: "flex", alignItems: "center" }}>
                             <Box sx={{ backgroundColor: "white", width: "2px", height: "30px" }} ></Box>
                             <Typography color="white" component="div" variant="h5" m="8px">
@@ -80,11 +97,16 @@ const Footer = () => {
                             <b>Dominic Networks</b> Pvt. Ltd.
                         </Typography>
                         <Typography variant="subtitle1" color="white" component="div">
-                            <b>Head Office : </b> A-36, Sector-63 Noida Uttar Pradesh
+                            <b>Head Office : </b> H.N. 502 , Tulsi Park ,Near Lions <br /> Eye Hospital, Balrampur-271201 U.P. (India)
                         </Typography>
                         <Typography variant="subtitle1" color="white" component="div">
-                            <b>Call Us: +91-9838022833</b>
+                            <b>Corporate Office : </b> A-36, Sector-63 Noida Uttar Pradesh
                         </Typography>
+                        <Link to="tel: 9838022833">
+                            <Typography variant="subtitle1" color="white" >
+                                <b>Call Us: +91-9838022833</b>
+                            </Typography>
+                        </Link>
                     </CardContent>
                 </Box>
             </Card>
