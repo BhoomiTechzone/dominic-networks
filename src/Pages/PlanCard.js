@@ -73,21 +73,21 @@ const PlanCard = () => {
                     <div> <div className="card s-card "   >
                         <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                                <Typography sx={{color:"#c53122"}} variant='h4' marginBottom="2px">
+                                <Typography sx={{color:"#0D6EFD"}} variant='h4' marginBottom="2px">
                                     Business
                                 </Typography>
                                 <Box>
-                                    <Typography  display={'inline'} sx={{ color: "#0D6EFD" }} variant='h3' color="text.secondary">
-                                        ₹ 470
+                                    <Typography  display={'inline'} sx={{ color: "#c53122" }} variant='h3' color="text.secondary">
+                                        ₹ 770
                                     </Typography>
-                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h6' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "#c53122" }} variant='h6' color="text.secondary">
                                         per Month
                                     </Typography>
                                 </Box>
                             </CardContent>
                             <div className='button-container'>
                                 <div>
-                                    <button>Speed 200 Mbps</button>
+                                    <button>Speed 300 Mbps</button>
                                 </div>
                                 <div className='detailsButton'>
                                     <button>Unlimited Data</button>
@@ -115,7 +115,7 @@ const PlanCard = () => {
                                 </Typography>
                                 <Box>
                                     <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h3' color="text.secondary">
-                                        ₹ 470
+                                        ₹ 930
                                     </Typography>
                                     <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h6' color="text.secondary">
                                         per Month
@@ -124,7 +124,7 @@ const PlanCard = () => {
                             </CardContent>
                             <div className='button-container'>
                                 <div>
-                                    <button>Speed 200 Mbps</button>
+                                    <button>Speed 500 Mbps</button>
                                 </div>
                                 <div className='detailsButton'>
                                     <button>Unlimited Data</button>

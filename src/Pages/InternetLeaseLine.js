@@ -1,14 +1,14 @@
-import React from 'react'
-import Navbars from '../Components/Navbar';
+import React from 'react';
 import './InternetLeaseLine.css';
 import Form from './Form';
-import img from '../image/ill/1.png'
+import img from '../image/ill/1.png';
 import Count from './Count';
+import SecondNavbar from '../Components/SecondNavbar';
 
 export default function InternetLeaseLine() {
   return (
     <div>
-      <Navbars/>
+      <SecondNavbar />
 
       <div className="" >
         <div className="ill-header">

@@ -7,7 +7,7 @@ const Plans = () => {
     return (
         <div className='container-plans'>
             <Box sx={{ display: "flex", alignItems: "center", flexDirection:"column" }}>
-                <Box sx={{ display: "flex", alignItems: "center" }}>
+                <Box sx={{ display: "flex", alignItems: "center", marginTop:"20px" }}>
                     <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "45px" }} ></Box>
                     <Typography color="white" component="div" variant="h4" m="8px">
                         Fiber Plans
