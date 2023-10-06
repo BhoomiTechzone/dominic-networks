@@ -10,6 +10,10 @@
   color: white !important;
 }
 
+.second-nav a{
+  color: #c53122 !important;
+}
+
 .navbar.active a{
   color: white !important;
 }

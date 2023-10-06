@@ -1,13 +1,12 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-// import { Navbar } from 'react-bootstrap';
-import Navbars from '../Components/Navbar';
+import SecondNavbar from '../Components/SecondNavbar';
 
 const About = () => {
     return ( 
         <>
-        <Navbars /> 
+        <SecondNavbar /> 
             <Box className="Footer-Header-Container">
                 <Box sx={{ textAlign: "center" , marginTop:"5.5rem"}}>
                     <Box sx={{textAlign: "center", backgroundColor:"#0D6EFD"}}>

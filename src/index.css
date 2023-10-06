@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .home-container{
   background-image: url('./image/home.png');
   /* width: 100vw; */

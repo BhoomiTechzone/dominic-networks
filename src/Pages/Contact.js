@@ -9,7 +9,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import Navbars from '../Components/Navbar';
+import SecondNavbar from '../Components/SecondNavbar';
 
 
 const Contact = () => {
@@ -58,7 +58,7 @@ const Contact = () => {
     };
     return (
       <>
-      <Navbars/>
+      <SecondNavbar />
         <div className='contact-body' style={{marginTop:"6rem"}}>
             <div className="container-fluid contact-page">
                 <div className="row contact-faq-row">
