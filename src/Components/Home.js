@@ -17,7 +17,7 @@ const itemData = [
     title: 'movie1',
   },
   {
-    img: 'https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg',
+    img: 'https://m.media-amazon.com/images/M/MV5BNDA1ODE0MmYtOTkwYy00YzQ4LWI1MmMtNmVmMmE1MTJmMGU1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg',
     title: 'movie2',
   },
   {
@@ -139,15 +139,18 @@ const Home = () => {
             </div>
           </OwlCarousel>
         </div>
-        <Box sx={{ backgroundColor: "#c53122", display: "flex", justifyContent: "center", gap: "15px", padding: "3rem 0px", cursor: "pointer", overflow:"scroll", }}> 
-          {itemData.map((ele, key) => {
-            return (
-              <div key={key} style={{ textAlign:"center" }}>
-                <img src={ele.img} alt={ele.title} width="200px" height="300px" marginLeft="20px" />
-              </div>
-            )
-          })}
-        </Box>
+        <div style={{ backgroundColor: "#c53122" }}>
+          <h2 style={{color:"white", textAlign:"center", paddingTop:"20px"}}>Enjoy Sports, Movies, TV Shows & More.</h2>
+          <Box sx={{ backgroundColor: "#c53122", display: "flex", justifyContent: "center", gap: "15px", padding: "3rem 0px", cursor: "pointer", overflow: "scroll", }}>
+            {itemData.map((ele, key) => {
+              return (
+                <div key={key} style={{ textAlign: "center" }}>
+                  <img src={ele.img} alt={ele.title} width="200px" height="300px" marginLeft="20px" />
+                </div>
+              )
+            })}
+          </Box>
+        </div>
       </div>
     </>
   )
