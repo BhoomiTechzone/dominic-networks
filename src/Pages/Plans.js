@@ -2,11 +2,19 @@ import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import PlanCard from './PlanCard';
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Plans = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, [])
+
     return (
         <div className='container-plans'>
-            <Box sx={{ display: "flex", alignItems: "center", flexDirection:"column" }}>
+            <Box data-aos="fade-down" sx={{ display: "flex", alignItems: "center", flexDirection:"column" }}>
                 <Box sx={{ display: "flex", alignItems: "center", marginTop:"20px" }}>
                     <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "45px" }} ></Box>
                     <Typography color="white" component="div" variant="h4" m="8px">

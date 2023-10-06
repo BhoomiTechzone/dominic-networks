@@ -7,6 +7,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import '../Pages/PlanCard.css';
 import OwlCarousel from 'react-owl-carousel';
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
@@ -41,6 +44,10 @@ const itemData = [
 
 const Home = () => {
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, [])
+
   return (
     <>
       <div className='home-container'>
@@ -50,7 +57,7 @@ const Home = () => {
       <Plans />
       <Streaming />
       <div>
-        <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", m: "2rem 0px" }}>
+        <Box data-aos="fade-down" sx={{ display: "flex", alignItems: "center", flexDirection: "column", m: "2rem 0px" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
             <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "35px" }} ></Box>
             <Typography color="black" component="div" variant="h5" m="8px">
@@ -95,14 +102,13 @@ const Home = () => {
                 </Typography>
               </Box>
             </div>
-
             <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", height: "250px", margin: "40px" }} className="card s-card">
               <Box sx={{ padding: "10px 20px", borderRadius: "10px", paddingTop: "2rem" }}>
                 <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
                   Best Internet Fiber service in town, look no further than Dominic Networks. They've set the bar high for speed and reliability.
                 </Typography>
                 <Typography variant='h6' sx={{ textAlign: "center" }} >
-                  Naveen Kumar Gaur
+                  Deepak Singh
                 </Typography>
                 <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
                   Happy Customer
@@ -116,7 +122,7 @@ const Home = () => {
                   Awesome customer support, they fixed any issue with in given time
                 </Typography>
                 <Typography variant='h6' sx={{ textAlign: "center" }} >
-                  Gaur
+                  Ankita
                 </Typography>
                 <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
                   Happy Customer
@@ -130,7 +136,7 @@ const Home = () => {
                   Awesome customer support, they fixed any issue with in given time
                 </Typography>
                 <Typography variant='h6' sx={{ textAlign: "center" }} >
-                  Kumar Gaur
+                  Adnna
                 </Typography>
                 <Typography sx={{ fontSize: "19px", textAlign: "center" }} color="text.secondary">
                   Happy Customer
@@ -140,11 +146,11 @@ const Home = () => {
           </OwlCarousel>
         </div>
         <div style={{ backgroundColor: "#c53122" }}>
-          <h2 style={{color:"white", textAlign:"center", paddingTop:"20px"}}>Enjoy Sports, Movies, TV Shows & More.</h2>
-          <Box sx={{ backgroundColor: "#c53122", display: "flex", justifyContent: "center", gap: "15px", padding: "3rem 0px", cursor: "pointer", overflow: "scroll", }}>
+          <h2 style={{ color: "white", textAlign: "center", paddingTop: "20px" }}>Enjoy Sports, Movies, TV Shows & More.</h2>
+          <Box sx={{ display: "flex", justifyContent: "center", gap: "15px", padding: "3rem 0px", cursor: "pointer", overflow: "scroll", }}>
             {itemData.map((ele, key) => {
               return (
-                <div key={key} style={{ textAlign: "center" }}>
+                <div data-aos="zoom-in-up" key={key} style={{ textAlign: "center" }}>
                   <img src={ele.img} alt={ele.title} width="200px" height="300px" marginLeft="20px" />
                 </div>
               )

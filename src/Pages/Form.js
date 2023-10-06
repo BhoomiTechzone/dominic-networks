@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css'
 
-function Form(props) {
+function Form() {
     return (
         <div>
             <section id="contact" className="contact">
@@ -11,7 +11,6 @@ function Form(props) {
                     <form method="post" role="form" className="php-email-form" style={{ background: "#f7f5f5" }}>
                         <div className="section-title" style={{ textAlign: "center" }}>
                             <h2><span>Send us a mail</span></h2>
-
                         </div>
                         <div className="row">
                             <div className="col-md-6 form-group">
