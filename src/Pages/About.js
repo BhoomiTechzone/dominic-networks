@@ -2,6 +2,7 @@ import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import SecondNavbar from '../Components/SecondNavbar';
+import founder from '../image/asss.png'
 
 const About = () => {
     return ( 
@@ -113,7 +114,15 @@ const About = () => {
                 </Box>
             </div>
             <div>
+                
+
                 <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "4rem", m: "0 auto" }}>
+                <div className="container">
+                    <div className="founder-img">
+                        <img src={founder} alt="founder image" height="150px" />
+                    </div>
+                       
+                </div>
                     <Box sx={{ display: "flex", alignItems: "center", mb: "1rem" }}>
                         <Typography component="div" variant="h4">
                             Our
