@@ -94,7 +94,7 @@ const Footer = () => {
                             </Typography>
                         </Box>
                         <Typography variant="subtitle1" color="white" component="div">
-                            <b>Dominic Networks</b> Pvt. Ltd.
+                            <b>Dominic Networks Pvt. Ltd.</b> 
                         </Typography>
                         <Typography variant="subtitle1" color="white" component="div">
                             <b>Head Office : </b> H.N. 502 , Tulsi Park ,Near Lions <br /> Eye Hospital, Balrampur-271201 U.P. (India)
