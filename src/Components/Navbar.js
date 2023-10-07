@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './navbar.css';
 import logo from '../image/logo/logo.png'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 const Navbars = () => {
@@ -33,18 +34,22 @@ const Navbars = () => {
               className="me-auto my-2 my-lg-0"
               navbarScroll
             >
-              <Nav.Link className='NavLink' href="/" >Home</Nav.Link>
-              <Nav.Link href="/about">About Us</Nav.Link>
+              <Nav.Link className='NavLink' href="/" >
+               <Link to="/"> Home </Link>
+                </Nav.Link>
+              <Nav.Link  >
+              <Link to="/about">About Us</Link></Nav.Link>
               <NavDropdown title="For Individual" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="/broadband">Broadband</NavDropdown.Item>
-                <NavDropdown.Item href="/ott">OTT</NavDropdown.Item>
-                <NavDropdown.Item href="/iptv">IPTV</NavDropdown.Item>
+                <NavDropdown.Item ><Link to="/broadband">Broadband </Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link to="/ott">OTT</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link to="/iptv">IPTV</Link></NavDropdown.Item>
+               
               </NavDropdown>
               <NavDropdown title="For Business" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="/internetleaseline">Internet Lease Line</NavDropdown.Item>
-                <NavDropdown.Item href="/cloudtelephony">Cloud Telephony</NavDropdown.Item>
+              <NavDropdown.Item ><Link to="/internetleaseline">Internet Lease Line</Link></NavDropdown.Item>
+              <NavDropdown.Item ><Link to="/cloudtelephony">Cloud Telephony</Link></NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/contact">Contact Us</Nav.Link>
+              <Nav.Link ><Link to="/contact">Contact</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
