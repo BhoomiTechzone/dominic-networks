@@ -10,6 +10,8 @@ import Broadband from './Pages/Broadband';
 import InternetLeaseLine from './Pages/InternetLeaseLine';
 import CloudTelephony from './Pages/CloudTelephony';
 import Iptv from './Pages/Iptv';
+import Privacy from './Pages/Privacy';
+import Termandconditions from './Pages/Termandconditions';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         <Route path='/internetleaseline' element={<InternetLeaseLine/>} />
         <Route path='/cloudtelephony' element={<CloudTelephony/>} />
         <Route path='/iptv' element={<Iptv/>} />
+        <Route path='/privacy' element={<Privacy />} />
+        <Route path='/terms-conditions' element={<Termandconditions />} />
       </Routes>
       <Footer/>
     </div>

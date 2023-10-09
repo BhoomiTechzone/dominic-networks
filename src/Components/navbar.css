@@ -1,6 +1,6 @@
 .navbar.active{
   background-color: white;
-  color: #c53122 !important;
+  color: #827d7c !important;
   
 }
 .navbar{
@@ -8,16 +8,24 @@
 }
 
 .navbar a{
-  color: white !important;
+  color: #c53122 !important;
 }
 
 .second-nav a{
   color: #c53122 !important;
+  background-color: transparent !important;
+}
+
+.second-nav a:hover{
+  background-color: transparent !important;
 }
 
 .navbar.active a{
   color: #c53122 !important;
+
 }
+
+
 .navbar.active .dropdown-item{
   /* color: aliceblue !important; */
   color: rgb(229, 15, 15) !important;
