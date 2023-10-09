@@ -129,7 +129,7 @@
 }
 
 .contact .php-email-form button[type=submit] {
-  background: white;
+  background: #c53122;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -228,12 +228,12 @@
   padding: 10px;
   background-color: rgb(230, 230, 230);
   margin: 10px;border: 2px solid gray;
-  /* height: 50px; */
+  height: 100px;
 }
 .sb-btn{
   padding: 8px;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
   width: 100px;
 }
@@ -243,4 +243,16 @@
 }
 .contact-content-left h5{
   color: #c53122 !important;
+}
+.sb-img{
+  width: 30%;
+  float: left;
+}
+.sb-img-content{
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}
+.sb-img img{
+  height: 76px;
 }

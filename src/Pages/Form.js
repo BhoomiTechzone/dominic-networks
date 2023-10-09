@@ -8,7 +8,7 @@ function Form() {
                 <div className="container">
                 </div>
                 <div>
-                    <form method="post" role="form" className="php-email-form" style={{ background: "#f7f5f5" }}>
+                    <form method="post" role="form" className="php-email-form" style={{  }}>
                         <div className="section-title" style={{ textAlign: "center" }}>
                             <h2><span>Send us a mail</span></h2>
                         </div>

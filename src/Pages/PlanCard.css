@@ -32,7 +32,7 @@
 }
 
 .button-container div:nth-child(1) button:nth-child(1) {
-  background-color: white;
+  background-color: #c53122;
   border: none;
   padding: 10px 30px;
   font-size: 18px;
