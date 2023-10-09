@@ -12,6 +12,7 @@ import CloudTelephony from './Pages/CloudTelephony';
 import Iptv from './Pages/Iptv';
 import Privacy from './Pages/Privacy';
 import Termandconditions from './Pages/Termandconditions';
+import Ourcompany from './Pages/Ourcompany';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/iptv' element={<Iptv/>} />
         <Route path='/privacy' element={<Privacy />} />
         <Route path='/terms-conditions' element={<Termandconditions />} />
+        <Route path='/ourcompany' element={<Ourcompany />} />
       </Routes>
       <Footer/>
     </div>
