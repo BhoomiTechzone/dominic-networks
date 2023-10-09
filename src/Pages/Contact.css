@@ -129,7 +129,7 @@
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #0D6EFD;
+  background: white;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -165,14 +165,14 @@
 .contact-side {
   padding: 15px;
   margin: 5px;
-  background-color: #0D6EFD;
+  background-color: white;
 }
 
 .contact-heading {
   text-align: center;
   margin-top: 20px;
   padding: 30px;
-  background-color: #0D6EFD;
+  background-color: white;
   color: white;
 }
 
@@ -218,4 +218,29 @@
     height: auto;
   }
 
+}
+.add1 ,.add2{
+  width: 45% !important;
+  float: left !important; 
+  padding: 15px;
+}
+.sidebox{
+  padding: 10px;
+  background-color: rgb(230, 230, 230);
+  margin: 10px;border: 2px solid gray;
+  /* height: 50px; */
+}
+.sb-btn{
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  width: 100px;
+}
+.contact-content h4{
+  color: #c53122 !important;
+
+}
+.contact-content-left h5{
+  color: #c53122 !important;
 }

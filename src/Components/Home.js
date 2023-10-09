@@ -59,12 +59,12 @@ const Home = () => {
       <div>
         <Box data-aos="fade-down" sx={{ display: "flex", alignItems: "center", flexDirection: "column", m: "2rem 0px" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "35px" }} ></Box>
+            <Box sx={{ backgroundColor: "white", width: "4px", height: "35px" }} ></Box>
             <Typography color="black" component="div" variant="h5" m="8px">
               Customer Testimonials
             </Typography>
           </Box>
-          <Typography color="#0D6EFD" variant='h4' textAlign="center">
+          <Typography color="white" variant='h4' textAlign="center">
             What Our Customers are Saying
           </Typography>
         </Box>

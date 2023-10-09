@@ -1,5 +1,6 @@
 .navbar.active{
-  background-color: #0D6EFD;
+  background-color: white;
+  color: #c53122 !important;
   
 }
 .navbar{
@@ -15,7 +16,7 @@
 }
 
 .navbar.active a{
-  color: white !important;
+  color: #c53122 !important;
 }
 .navbar.active .dropdown-item{
   /* color: aliceblue !important; */
@@ -45,6 +46,9 @@
 }
 .navbar-collapse{
   padding-left: 200px !important;
+}
+.second-nav{
+  background-color: white;
 }
 @media (min-width: 250px) and (max-width:500px) {
   .navbar img{
