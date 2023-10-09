@@ -256,14 +256,14 @@ const Contact = () => {
                                         Eye Hospital, Balrampur-271201 U.P. (India)</p>
                                     <br />
                                     <p> <b>T:</b>  +91-9838022833</p>
-                                    <p> <b>M:</b>  +91-9838022833</p>
+                                    <p> <b>M:</b>  support@dominicnetworks.com</p>
                                 </div>
                                 <div className="add2">
                                     <h5>Corporate Office : </h5>
                                     <p>A-36, Sector-63 <br /> Noida Uttar Pradesh</p>
                                     <br />
                                     <p> <b>T:</b>  +91-9838022833</p>
-                                    <p> <b>M:</b>  +91-9838022833</p>
+                                    <p> <b>M:</b>  support@dominicnetworks.com</p>
                                 </div>
                             </div>
                         </div>
