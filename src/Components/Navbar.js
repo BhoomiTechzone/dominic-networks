@@ -47,7 +47,12 @@ const Navbars = () => {
               <NavDropdown.Item ><Link to="/internetleaseline" className='flink'>Internet Lease Line</Link></NavDropdown.Item>
               <NavDropdown.Item ><Link to="/cloudtelephony" className='flink'>Cloud Telephony</Link></NavDropdown.Item>
               </NavDropdown>
+              <NavDropdown title="Policy" id="navbarScrollingDropdown">
+              <NavDropdown.Item ><Link to="/terms-conditions" className='flink'>Terms and Condition</Link></NavDropdown.Item>
+              <NavDropdown.Item ><Link to="/privacy" className='flink'>Privacy Policy</Link></NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link ><Link to="/contact" className='flink'>Contact</Link></Nav.Link>
+              <Nav.Link ><Link to="/ourcompany" className='flink'>Our company</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
