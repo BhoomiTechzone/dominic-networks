@@ -120,16 +120,16 @@ const Footer = () => {
                             Follow Us:
                         </Typography>
                         <a href='https://www.facebook.com/dnpl.wani' target="_blank" rel="noreferrer">
-                            <FacebookRoundedIcon fontSize='large' sx={{ color: "", width: "40px", height: "40px", padding: "1px", borderRadius: "50%", cursor: "pointer" }} />
+                            <FacebookRoundedIcon fontSize='large' sx={{ color: "#c51322", width: "40px", height: "40px", padding: "1px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
-                            <YouTubeIcon fontSize='large' sx={{ color: "", width: "60px", height: "60px", padding: "10px", borderRadius: "50%", cursor: "pointer" }} />
+                            <YouTubeIcon fontSize='large' sx={{ color: "#c51322", width: "60px", height: "60px", padding: "10px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.instagram.com/dnpl.wani/' target="_blank" rel="noreferrer">
-                            <InstagramIcon fontSize='large' sx={{ color: "", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
+                            <InstagramIcon fontSize='large' sx={{ color: "#c51322", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
-                            <LinkedInIcon fontSize='large' sx={{ color: "", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
+                            <LinkedInIcon fontSize='large' sx={{ color: "#c51322", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                     </Box>
                 </Box>

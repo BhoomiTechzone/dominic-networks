@@ -38,7 +38,9 @@ const Ott = () => {
         <div>
             <SecondNavbar />
             <div className='ott-container' style={{ marginTop: "88px" }}>
-                <Typography sx={{ pt: "10%", pl: "10%" }} color="#c53122" variant='h3' >OTT</Typography>
+                <Typography sx={{ pt: "10%", pl: "10%" }} color="#c53122" variant='h3' >
+                    {/* OTT */}
+                    </Typography>
             </div>
             <div>
                 <div className="container ct-content">

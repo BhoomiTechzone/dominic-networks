@@ -68,7 +68,7 @@ ul li{
 }
 
 .ott-container{
-  background-image: url('https://www.anonet.in/assets/images/bg1.png');
+  background-image: url("/src/image/ott.png");
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -83,4 +83,6 @@ ul li{
   color: black !important;
   text-decoration: none;
 }
-
+.ldark{
+  color: #c53122;
+}

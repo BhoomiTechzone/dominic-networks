@@ -11,7 +11,11 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import SecondNavbar from '../Components/SecondNavbar';
 import { Link } from 'react-router-dom';
-
+import c1 from '../image/contact1.PNG'
+import c2 from '../image/contact2.PNG'
+import c3 from '../image/contact3.png'
+import c4 from '../image/contact4.png'
+import Form from './Form';
 
 const Contact = () => {
     const data = {
@@ -187,7 +191,7 @@ const Contact = () => {
                             <div className="contact-content-left">
                                 <h2 >Contact us</h2>
                                 <p>We are eager for you to contact us and look forward to responding to you.</p>
-                                <h5>quick contact</h5>
+                                <h5>Quick contact</h5>
                                 <p>Please find below a list of quick email contacts for specific requirements which you may have. We are also listing below a list of our Key POP’s across the country and we hope we are near you somewhere so that we can service your requirements. We encourage you to contact us via Phone , Email, Social media or our website. We keenly look forward to responding to your needs and queries.</p>
                                 <div className="list-items">
                                     <ul>
@@ -207,44 +211,44 @@ const Contact = () => {
                         <div className="col-lg-4">
                             <div className="sidebox">
                                 <div className="sb-img">
-
+                                    <img src={c1} alt="" width="100%" />
                                 </div>
                                 <div className="sb-img-content">
-                                    <p> <b> Log a Complaint</b></p>
+                                    <p className="ldark"> <b> Log a Complaint</b></p>
                                     <button className='sb-btn'>Read More</button>
                                 </div>
                             </div>
                             <div className="sidebox">
                                 <div className="sb-img">
-
+                                <img src={c2} alt="" width="100%" />
                                 </div>
                                 <div className="sb-img-content">
-                                    <p> <b> Check Your Utilization</b></p>
+                                    <p className="ldark"> <b> Check Your Utilization</b></p>
                                     <button className='sb-btn'>Read More</button>
                                 </div>
                             </div>
                             <div className="sidebox">
                                 <div className="sb-img">
-
+                                    <img src={c3} alt="" width="100%" />
                                 </div>
                                 <div className="sb-img-content">
-                                    <p> <b> Check Email</b></p>
+                                    <p className="ldark"> <b> Check Email</b></p>
                                     <button className='sb-btn'>Read More</button>
                                 </div>
                             </div>
                             <div className="sidebox">
                                 <div className="sb-img">
-
+                                <img src={c4} alt="" width="100%" />
                                 </div>
                                 <div className="sb-img-content">
-                                    <p> <b> Explore Partnership</b></p>
+                                    <p className="ldark"> <b> Explore Partnership</b></p>
                                     <button className='sb-btn'>Read More</button>
                                 </div>
                             </div>
 
                         </div>
                         <div className="col-lg-8">
-                            <h4>Some of our offices are as under</h4>
+                            <h4 className="ldark">Some of our offices are as under</h4>
                             <div className="addresses">
                                 <div className="add1">
                                     <h5>Head Office : </h5>
@@ -265,7 +269,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
+<Form/>
             </div>
         </>
     );
