@@ -21,7 +21,7 @@ const SecondNavbar = () => {
 
     return (
         <div>
-            <Navbar expand="lg" sticky='' fixed="top" className={bar ? 'navbar active' : 'navbar second-nav'}>
+            <Navbar expand="lg" sticky='' fixed="top"  className={bar ? 'navbar active' : 'navbar second-nav'}>
                 <Container fluid>
                     <Navbar.Brand href="/">
                         <img src={logo} alt="" height="60px" />

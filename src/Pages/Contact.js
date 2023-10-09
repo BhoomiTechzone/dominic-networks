@@ -39,7 +39,7 @@ const Contact = () => {
 
     const styles = {
         // bgColor: 'white',
-        titleTextColor: "#0D6EFD",
+        titleTextColor: "white",
         rowTitleColor: "black",
         titleTextAlign: "center"
         // rowContentColor: 'grey',
@@ -55,7 +55,7 @@ const Contact = () => {
         <>
             <SecondNavbar />
             <div className='contact-body' style={{ marginTop: "6rem" }}>
-                <div className="container-fluid contact-page">
+                {/* <div className="container-fluid contact-page">
                     <div className="row contact-faq-row">
                         <div className="col-lg-9 contact-faq">
                             <Faq
@@ -74,15 +74,15 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="container-fluid"> */}
 
-                <div className="section-title contact-heading">
+                {/* <div className="section-title contact-heading">
                     <h2><span>Contact</span> Us</h2>
                     <p>Connect with us today. Your questions matter. We're here to assist you. Reach out for personalized support and timely solutions. Let's talk</p>
-                </div>
+                </div> */}
                 {/* </div> */}
-                <div className="container-fluid contact-form">
+                {/* <div className="container-fluid contact-form">
                     <div className="row ">
                         <div className="col-lg-6">
                             <section id="contact" className="contact">
@@ -128,7 +128,7 @@ const Contact = () => {
                                         <div className="row">
                                             <div className="col-lg-3">
                                                 <Link to="tel: 9838022833"> 
-                                                  <CallRoundedIcon sx={{ color: "#0D6EFD", fontSize: '50px' }} />
+                                                  <CallRoundedIcon sx={{ color: "white", fontSize: '50px' }} />
                                                 </Link>
                                             </div>
                                             <div className="col-lg-9">
@@ -142,7 +142,7 @@ const Contact = () => {
                                         <div className="row">
                                             <div className="col-lg-3">
                                                 <Link to="https://maps.app.goo.gl/HkBS4z7s553gJfwS7">
-                                                  <AddLocationRoundedIcon sx={{ color: "#0D6EFD", fontSize: '50px' }} />
+                                                  <AddLocationRoundedIcon sx={{ color: "white", fontSize: '50px' }} />
                                                 </Link>
                                             </div>
                                             <div className="col-lg-9">
@@ -156,21 +156,110 @@ const Contact = () => {
                                     <h2>Follow us on social networks</h2>
                                     <div className="contact-social-icon-box">
                                         <a href='https://www.facebook.com/dnpl.wani' target="_blank" rel="noreferrer">
-                                            <FacebookIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor: "pointer" }} />
+                                            <FacebookIcon fontSize='large' sx={{ color: "white", width: "20%", cursor: "pointer" }} />
                                         </a>
                                         <a href='https://www.instagram.com/dnpl.wani/' target="_blank" rel="noreferrer">
-                                            <InstagramIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor: "pointer" }} />
+                                            <InstagramIcon fontSize='large' sx={{ color: "white", width: "20%", cursor: "pointer" }} />
                                         </a>
                                         <a>
-                                            <LinkedInIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor: "pointer" }} />
+                                            <LinkedInIcon fontSize='large' sx={{ color: "white", width: "20%", cursor: "pointer" }} />
                                         </a>
                                         <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
-                                            <YouTubeIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor: "pointer" }} />
+                                            <YouTubeIcon fontSize='large' sx={{ color: "white", width: "20%", cursor: "pointer" }} />
                                         </a>
                                         <a>
-                                            <TwitterIcon fontSize='large' sx={{ color: "#0D6EFD", width: "20%", cursor: "pointer" }} />
+                                            <TwitterIcon fontSize='large' sx={{ color: "white", width: "20%", cursor: "pointer" }} />
                                         </a>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
+
+                <div className="container">
+                    <div className="contact-image">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="contact-content"></div>
+                    <div className="row">
+                        <div className="col-lg-8">
+                            <div className="contact-content-left">
+                                <h2 >Contact us</h2>
+                                <p>We are eager for you to contact us and look forward to responding to you.</p>
+                                <h5>quick contact</h5>
+                                <p>Please find below a list of quick email contacts for specific requirements which you may have. We are also listing below a list of our Key POP’s across the country and we hope we are near you somewhere so that we can service your requirements. We encourage you to contact us via Phone , Email, Social media or our website. We keenly look forward to responding to your needs and queries.</p>
+                                <div className="list-items">
+                                    <ul>
+                                        <li>Sales</li>
+                                        <li>Technical Issues / Complaint</li>
+                                        <li>Media</li>
+                                        <li>Customer Suppor</li>
+                                        <li>Partnership’s</li>
+                                        <li>Feedback</li>
+                                        <li>SPAM reporting</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="sidebox">
+                                <div className="sb-img">
+
+                                </div>
+                                <div className="sb-img-content">
+                                    <p> <b> Log a Complaint</b></p>
+                                    <button className='sb-btn'>Read More</button>
+                                </div>
+                            </div>
+                            <div className="sidebox">
+                                <div className="sb-img">
+
+                                </div>
+                                <div className="sb-img-content">
+                                    <p> <b> Check Your Utilization</b></p>
+                                    <button className='sb-btn'>Read More</button>
+                                </div>
+                            </div>
+                            <div className="sidebox">
+                                <div className="sb-img">
+
+                                </div>
+                                <div className="sb-img-content">
+                                    <p> <b> Check Email</b></p>
+                                    <button className='sb-btn'>Read More</button>
+                                </div>
+                            </div>
+                            <div className="sidebox">
+                                <div className="sb-img">
+
+                                </div>
+                                <div className="sb-img-content">
+                                    <p> <b> Explore Partnership</b></p>
+                                    <button className='sb-btn'>Read More</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="col-lg-8">
+                            <h4>Some of our offices are as under</h4>
+                            <div className="addresses">
+                                <div className="add1">
+                                    <h5>Head Office : </h5>
+                                    <p>H.N. 502 , Tulsi Park ,Near Lions
+                                        Eye Hospital, Balrampur-271201 U.P. (India)</p>
+                                    <br />
+                                    <p> <b>T:</b>  +91-9838022833</p>
+                                    <p> <b>M:</b>  +91-9838022833</p>
+                                </div>
+                                <div className="add2">
+                                    <h5>Corporate Office : </h5>
+                                    <p>A-36, Sector-63 <br /> Noida Uttar Pradesh</p>
+                                    <br />
+                                    <p> <b>T:</b>  +91-9838022833</p>
+                                    <p> <b>M:</b>  +91-9838022833</p>
                                 </div>
                             </div>
                         </div>

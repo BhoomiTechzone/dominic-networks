@@ -16,12 +16,12 @@ const Plans = () => {
         <div className='container-plans'>
             <Box data-aos="fade-down" sx={{ display: "flex", alignItems: "center", flexDirection:"column" }}>
                 <Box sx={{ display: "flex", alignItems: "center", marginTop:"20px" }}>
-                    <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "45px" }} ></Box>
+                    <Box sx={{ backgroundColor: "white", width: "4px", height: "45px" }} ></Box>
                     <Typography color="white" component="div" variant="h4" m="8px">
                         Fiber Plans
                     </Typography>
                 </Box>
-                <Typography color="#0D6EFD" variant='h5' textAlign="center">
+                <Typography color="white" variant='h5' textAlign="center">
                     Experience lightning-fast internet with
                 </Typography>
                 <Typography color="white" variant='h5' fontWeight="bold" marginBottom="1rem" textAlign="center">

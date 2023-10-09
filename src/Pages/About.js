@@ -10,8 +10,8 @@ const About = () => {
         <SecondNavbar /> 
             <Box className="Footer-Header-Container">
                 <Box sx={{ textAlign: "center" , marginTop:"5.5rem"}}>
-                    <Box sx={{textAlign: "center", backgroundColor:"#0D6EFD"}}>
-                      <Typography p="1rem" color="white" variant='h4'>We won't stop till we answer all your questions!</Typography>
+                    <Box sx={{textAlign: "center", backgroundColor:"white"}}>
+                      <Typography p="1rem" color="" variant='h4'>We won't stop till we answer all your questions!</Typography>
                     </Box>
                     <Typography sx={{ color: "#c53122", mt:"2rem" }} variant='h4'>Dominic Networks</Typography>
                     <Typography variant='h6'>The best internet service Provider in Noida</Typography>

@@ -20,12 +20,12 @@ const Streaming = () => {
     <Card>
       <Box data-aos="fade-down" sx={{ display: "flex", alignItems: "center", flexDirection: "column", padding: "2rem 0px" }}>
         <Box sx={{ display: "flex", alignItems: "center" }}>
-          <Box sx={{ backgroundColor: "#0D6EFD", width: "4px", height: "45px" }} ></Box>
+          <Box sx={{ backgroundColor: "white", width: "4px", height: "45px" }} ></Box>
           <Typography color="black" component="div" variant="h4" m="8px">
             Now Streaming
           </Typography>
         </Box>
-        <Typography color="#0D6EFD" variant='h4' textAlign="center">
+        <Typography color="white" variant='h4' textAlign="center">
           Experience lightning-fast internet with
         </Typography>
       </Box>

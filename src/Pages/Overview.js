@@ -24,7 +24,7 @@ const Overview = () => {
                 <Box data-aos="fade-left" className="overviewText-container" >
                     <Typography display="inline" variant="h4">
                         SURF WITH
-                        <Typography variant="h4" display="inline" sx={{ color: "#0D6EFD" }}> EASE</Typography>
+                        <Typography variant="h4" display="inline" sx={{ color: "white" }}> EASE</Typography>
                     </Typography>
                     <Typography variant="h5" mt="10px">
                         Stay Connected, Stay Ahead

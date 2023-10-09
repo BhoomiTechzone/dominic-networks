@@ -39,10 +39,10 @@ const PlanCard = () => {
                                     Standard
                                 </Typography>
                                 <Box>
-                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h3' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "white" }} variant='h3' color="text.secondary">
                                         ₹ 470
                                     </Typography>
-                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h6' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "white" }} variant='h6' color="text.secondary">
                                         per Month
                                     </Typography>
                                 </Box>
@@ -72,7 +72,7 @@ const PlanCard = () => {
                     <div> <div className="card s-card "   >
                         <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                                <Typography sx={{color:"#0D6EFD"}} variant='h4' marginBottom="2px">
+                                <Typography sx={{color:"white"}} variant='h4' marginBottom="2px">
                                     Business
                                 </Typography>
                                 <Box>
@@ -113,10 +113,10 @@ const PlanCard = () => {
                                     Enterainment
                                 </Typography>
                                 <Box>
-                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h3' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "white" }} variant='h3' color="text.secondary">
                                         ₹ 930
                                     </Typography>
-                                    <Typography display={'inline'} sx={{ color: "#0D6EFD" }} variant='h6' color="text.secondary">
+                                    <Typography display={'inline'} sx={{ color: "white" }} variant='h6' color="text.secondary">
                                         per Month
                                     </Typography>
                                 </Box>
