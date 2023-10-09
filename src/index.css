@@ -83,6 +83,15 @@ ul li{
   color: black !important;
   text-decoration: none;
 }
+
+.flink:hover{
+  color: #c53122 !important;
+}
+
 .ldark{
+  color: #c53122;
+}
+
+.footer-icon:hover{
   color: #c53122;
 }

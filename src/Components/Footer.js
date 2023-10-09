@@ -26,8 +26,8 @@ const Footer = () => {
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1', width: "100%" }}>
                         <Box sx={{ display: "flex", alignItems: "center" }}>
-                            <Box sx={{ backgroundColor: "", width: "2px", height: "30px" }} ></Box>
-                            <Typography color="" component="div" variant="h5" m="8px">
+                            <Box sx={{ backgroundColor: "black", width: "2px", height: "25px" }} ></Box>
+                            <Typography color="black" component="div" variant="h6" m="8px">
                                 Quick Links
                             </Typography>
                         </Box>
@@ -62,23 +62,23 @@ const Footer = () => {
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1', width: "100%" }}>
                         <Box sx={{ display: "flex", alignItems: "center" }}>
-                            <Box sx={{ backgroundColor: "", width: "2px", height: "30px" }} ></Box>
-                            <Typography color="" component="div" variant="h5" m="8px">
+                            <Box sx={{ backgroundColor: "black", width: "2px", height: "25px" }} ></Box>
+                            <Typography color="black" component="div" variant="h6" m="8px">
                                 Helpful Links
                             </Typography>
                         </Box>
                         <Typography sx={{ borderBottom: "1px dashed white", cursor: 'pointer' }} p="2px 0px" variant="subtitle1" color="" component="div">
-                            <Link to="/contact" className='flink'>
+                            <Link to="/terms-conditions" className='flink'>
                                 Terms and Conditions
                             </Link>
                         </Typography>
                         <Typography sx={{ borderBottom: "1px dashed white", cursor: 'pointer' }} p="2px 0px" variant="subtitle1" color="" component="div">
-                            <Link to="/contact" className='flink'>
+                            <Link to="/privacy" className='flink'>
                                 Privacy Policy
                             </Link>
                         </Typography>
                         <Typography sx={{ borderBottom: "1px dashed white", cursor: 'pointer' }} p="2px 0px" variant="subtitle1" color="" component="div">
-                            <Link to="/contact" className='flink'>
+                            <Link to="/privacy" className='flink'>
                                 Refund Policy
                             </Link>
                         </Typography>
@@ -88,8 +88,8 @@ const Footer = () => {
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1', width: "100%" }}>
                         <Box sx={{ display: "flex", alignItems: "center" }}>
-                            <Box sx={{ backgroundColor: "", width: "2px", height: "30px" }} ></Box>
-                            <Typography color="" component="div" variant="h5" m="8px">
+                            <Box sx={{ backgroundColor: "black", width: "2px", height: "25px" }} ></Box>
+                            <Typography color="black" component="div" variant="h6" m="8px">
                                 Connect Us
                             </Typography>
                         </Box>
@@ -102,8 +102,8 @@ const Footer = () => {
                         <Typography variant="subtitle1" color="" component="div">
                             <b>Corporate Office : </b> A-36, Sector-63 Noida Uttar Pradesh
                         </Typography>
-                        <Link to="tel: 9838022833">
-                            <Typography variant="subtitle1" color=""  >
+                        <Link className='flink' to="tel: 9838022833">
+                            <Typography variant="subtitle1" >
                                 <b >Call Us: +91-9838022833</b>
                             </Typography>
                         </Link>
@@ -111,25 +111,25 @@ const Footer = () => {
                 </Box>
             </Card>
             <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "4px solid #fff", backgroundColor: "", p: "0.5rem 2rem" }}>
-                <Typography sx={{ color: "", fontSize: "16px" }} color="text.secondary">
+                <Typography sx={{ color: "", fontSize: "15px" }} color="text.secondary">
                     All Right Reserved. ©2023 Dominic Networks.
                 </Typography>
                 <Box sx={{ display: 'flex', justifyContent: "space-between" }}>
                     <Box sx={{ display: "flex", justifyContent: "space-between", gap: "20px", alignItems: "center" }}>
-                        <Typography sx={{ color: "", fontSize: "16px" }} color="text.secondary">
+                        <Typography sx={{ color: "", fontSize: "15px" }} color="text.secondary">
                             Follow Us:
                         </Typography>
                         <a href='https://www.facebook.com/dnpl.wani' target="_blank" rel="noreferrer">
-                            <FacebookRoundedIcon fontSize='large' sx={{ color: "#c51322", width: "40px", height: "40px", padding: "1px", borderRadius: "50%", cursor: "pointer" }} />
+                            <FacebookRoundedIcon className='footer-icon' sx={{ color: "#212529", width: "40px", height: "40px", padding: "1px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
-                            <YouTubeIcon fontSize='large' sx={{ color: "#c51322", width: "60px", height: "60px", padding: "10px", borderRadius: "50%", cursor: "pointer" }} />
+                            <YouTubeIcon className='footer-icon' sx={{ color: "#212529", width: "60px", height: "60px", padding: "10px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.instagram.com/dnpl.wani/' target="_blank" rel="noreferrer">
-                            <InstagramIcon fontSize='large' sx={{ color: "#c51322", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
+                            <InstagramIcon className='footer-icon'  sx={{ color: "#212529", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
-                            <LinkedInIcon fontSize='large' sx={{ color: "#c51322", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
+                            <LinkedInIcon className='footer-icon'  sx={{ color: "#212529", width: "45px", height: "45px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                     </Box>
                 </Box>
