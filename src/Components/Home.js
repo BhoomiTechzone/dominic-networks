@@ -58,13 +58,7 @@ const Home = () => {
       <Streaming />
       <div>
         <Box data-aos="fade-down" sx={{ display: "flex", alignItems: "center", flexDirection: "column", m: "2rem 0px" }}>
-          <Box sx={{ display: "flex", alignItems: "center" }}>
-            <Box sx={{ backgroundColor: "white", width: "4px", height: "35px" }} ></Box>
-            <Typography color="black" component="div" variant="h5" m="8px">
-              Customer Testimonials
-            </Typography>
-          </Box>
-          <Typography color="white" variant='h4' textAlign="center">
+          <Typography color="" variant='h4' textAlign="center">
             What Our Customers are Saying
           </Typography>
         </Box>
@@ -102,6 +96,7 @@ const Home = () => {
                 </Typography>
               </Box>
             </div>
+            
             <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", height: "250px", margin: "40px" }} className="card s-card">
               <Box sx={{ padding: "10px 20px", borderRadius: "10px", paddingTop: "2rem" }}>
                 <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
