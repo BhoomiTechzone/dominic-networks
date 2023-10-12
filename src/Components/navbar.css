@@ -12,6 +12,11 @@
   background-color: transparent !important;
 }
 
+.navbar img{
+  height: 70px;
+  width: 500px;
+}
+
 .second-nav a{
   color: #c53122 !important;
   background-color: transparent !important;
@@ -59,9 +64,12 @@
 .second-nav{
   background-color: white;
 }
+
+
 @media (min-width: 250px) and (max-width:500px) {
   .navbar img{
     height: 40px;
+    width: 250px;
   }
   .navbar-collapse{
     padding: 20px !important;
