@@ -8,72 +8,216 @@ const Privacy = () => {
         <div>
             <SecondNavbar />
             <Box className="Footer-Header-Container">
-                <Box sx={{ textAlign: "center", marginTop: "7rem" }}>
-                    <Typography sx={{ color: "#c53122", mt: "2rem" }} variant='h4'>Privacy Policy</Typography>
+                <Box sx={{ textAlign: "center", marginTop: "8rem" }}>
+                    <Typography sx={{ color: "#c53122", mt: "1rem" }} variant='h4'>Privacy Policy</Typography>
                 </Box>
-                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 3rem", m: "10px auto 0px" }}>
-                    <Typography color="" textAlign="left" fontSize="18px" lineHeight="30px" >
-                        Creating a website for a fiber and internet service provider is an important task to showcase your services and connect with potential customers. Here are some steps and considerations to help you get started:
-                        <br />
-                        <br />
-                        <b>Define Your Goals and Audience: </b>
-                        Determine the primary goals of your website, such as attracting new customers, providing information, or enabling online sales.
-                        Identify your target audience. Are you serving residential customers, businesses, or both?
-                        <br />
-                        <br />
-                        <b>Choose a Domain Name and Hosting: </b>
-                        Select a domain name that reflects your business and is easy to remember.
-                        Choose a reliable web hosting provider to ensure your website is always accessible.
-                        <br />
-                        <br />
-                        <b>Website Design: </b>
-                        Create a clean and professional design that reflects your brand.
-                        Ensure your website is mobile-responsive for users on different devices.
-                        Consider using high-quality images and graphics to showcase your services.
-                        <br />
-                        <br />
-                        <b>Content Creation: </b>
-                        Provide detailed information about your fiber and internet services, including packages, pricing, and coverage areas.
-                        Highlight any unique selling points or benefits of choosing your services.
-                        Include a blog or news section to share updates and industry insights.
-                        <br />
-                        <br />
-                        <b>Contact Information: </b>
-                        Make it easy for visitors to contact you by including a contact form, phone number, and email address.
-                        Consider adding a chat or messaging option for immediate customer support.
-                        <br />
-                        <br />
-                        <b>Service Availability: </b>
-                        Implement a tool or map that allows users to check if your services are available in their area.
-                        <br />
-                        <br />
-                        <b>Customer Testimonials: </b>
-                        Display customer reviews and testimonials to build trust and credibility.
-                        <b />
-                        <b />
-                        <b>FAQ Section: </b>
-                        Include a frequently asked questions section to address common inquiries.
-                        Performance and Speed:
-                        Optimize your website for fast loading times to provide a better user experience.
-                        <br />
-                        <br />
-                        <b>Security: </b>
-                        Ensure the security of your website and customer data by using HTTPS and regularly updating plugins and software.
-                        SEO (Search Engine Optimization):
-                        Optimize your website for search engines to improve its visibility in search results.
-                        Social Media Integration:
-                        Link to your social media profiles to encourage engagement and communication.
-                        Legal and Privacy Considerations:
-                        Include a privacy policy, terms of service, and any other necessary legal documents.
-                        Analytics:
-                        Set up website analytics to track user behavior and make data-driven improvements.
-                        Maintenance and Updates:
-                        Regularly update your website with fresh content and ensure that all features are working correctly.
-                        Testing:
-                        Test your website across different browsers and devices to ensure compatibility.
-                        Marketing and Promotion:
-                        Develop a marketing strategy to drive traffic to your website through various channels, such as social media, email marketing, and online advertising.
-                        Building a website for your fiber and internet service provider business is a significant step in reaching your target audience and growing your customer base. Remember to keep the user experience in mind and continuously improve your site based on feedback and performance metrics.
+                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 5rem", m: "10px auto 0px" }}>
+                    <Typography color="" textAlign="left" fontSize="18px">
+                        <Typography fontSize="18px" mb="10px">
+                            This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects you.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Interpretation and Definitions Interpretation The words of which the initial letter is capitalized have meanings defined under the following conditions.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            <b>Definitions For the purposes of this Privacy Policy:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            “You” means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable. “Company” (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to dominicnetworks.com.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            “Affiliate” means an entity that controls, is controlled by or is under common control with a party, where “control” means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority. “Account” means a unique account created for You to access our Service or parts of our Service.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            “Website” refers to dominicnetworks.com, accessible from dominicnetworks.com. “Service” refers to the Website. “Country” refers to Uttar Pradesh, India. “Service Provider” means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used. “Third-party Social Media Service” refers to any website or any social network website through which a User can log in or create an account to use the Service.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            “Personal Data” is any information that relates to an identified or identifiable individual. “Cookies” are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            “Usage Data” refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            <b>Collecting and Using Your Personal Data:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to –
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Email address, First name and Last name, Phone number and Usage Data. Usage Data is collected automatically when using the Service.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Usage Data may include information such as Your Device’s Internet Protocol address (for example, IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Cookies can be “Persistent” or “Session” Cookies. Persistent Cookies remain on your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close your web browser.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            <b>Use of Your Personal Data:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            The Company may use Personal Data for the following purposes –
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            To provide and maintain our Service, including to monitor the usage of our Service. To manage Your Account; To manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user. For the performance of a contract; The development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service. To contact You; To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application’s push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation. To provide You with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information. To manage your requests; To attend and manage Your requests to Us.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            <b>We may share your personal information in the following situations:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            With Service Providers; We may share Your personal information with Service Providers to monitor and analyse the use of our Service, to show advertisements to You to help support and maintain Our Service, to contact You, to advertise on third party websites to You after You visited our Service or for payment processing.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            For business transfers; We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of our business to another company.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            With Affiliates; We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            With business partners; We may share Your information with Our business partners to offer You certain products, services or promotions.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            With other users; When You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see You name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of your activity, communicate with you and view your profile.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            <b>Retention of Your Personal Data:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
+                            <br />
+                        </Typography>
+
+                        <Typography fontSize="18px" mb="8px">
+                            <b>Transfer of Your Personal Data:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Your information, including Personal Data, is processed at the Company’s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to, and maintained on, computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            <b>Disclosure of Your Personal Data:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Business Transactions; If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Law enforcement; Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (for example, a court or a government agency).
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Other legal requirements; The Company may disclose Your Personal Data in the good faith belief that such action is necessary to –
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Comply with a legal obligation. Protect and defend the rights or property of the Company. Prevent or investigate possible wrongdoing in connection with the Service. Protect the personal safety of Users of the Service or the public. Protect against legal liability. Security of Your Personal Data; The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            <b>Children’s Privacy:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            We also may limit how We collect, use, and store some of the information of Users between 13 and 18 years old. In some cases, this means We will be unable to provide certain functionality of the Service to these users.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent’s consent before We collect and use that information.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            <b>Links to Other Websites:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            Our Service may contain links to other websites that are not operated by Us. If You click on a third-party link, You will be directed to that third-party’s site. We strongly advise You to review the Privacy Policy of every site You visit.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party sites or services.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            <b>Changes to this Privacy Policy:</b>
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            We may update our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the “Last updated” date at the top of this Privacy Policy.
+                            <br />
+                        </Typography>
+                        <Typography fontSize="18px" mb="8px">
+                            You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+                            <br />
+                        </Typography>
                     </Typography>
                 </Box>
             </Box>
@@ -82,7 +226,7 @@ const Privacy = () => {
                 <Box sx={{ textAlign: "center", marginTop: "3rem" }}>
                     <Typography sx={{ color: "#c53122", mt: "2rem" }} variant='h4'>Refund Policy</Typography>
                 </Box>
-                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 3rem", m: "10px auto 0px" }}>
+                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 5rem", m: "10px auto 0px" }}>
                     <Typography color="" textAlign="left" fontSize="18px" lineHeight="30px" >
                         Creating a website for a fiber and internet service provider is an important task to showcase your services and connect with potential customers. Here are some steps and considerations to help you get started:
                         <br />
