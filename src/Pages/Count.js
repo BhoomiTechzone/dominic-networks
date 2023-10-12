@@ -10,7 +10,7 @@ function Count(props) {
                 <div className="row">
                     <h1><span className='countb'></span>By the Numbers: Our Telecom Services in Action</h1>
                     <div className="col-lg-3">
-                        <h2><CountUp end={18} duration={5}/> <span>+</span></h2>
+                        <h2><CountUp end={2} duration={5}/> <span>+</span></h2>
                         <h3>Years of experience</h3>
 
                     </div>

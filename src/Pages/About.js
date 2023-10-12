@@ -2,7 +2,9 @@ import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import SecondNavbar from '../Components/SecondNavbar';
-import founder from '../image/asss.png'
+import founder from '../image/asss.jpeg'
+import d from '../image/DIRECTOR.png'
+import md from '../image/MD.png'
 
 const About = () => {
     return ( 
@@ -13,47 +15,47 @@ const About = () => {
                     <Box sx={{textAlign: "center", backgroundColor:"white"}}>
                       <Typography p="1rem" color="" variant='h4'>We won't stop till we answer all your questions!</Typography>
                     </Box>
-                    <Typography sx={{ color: "#c53122", mt:"2rem" }} variant='h4'>Dominic Networks</Typography>
+                    <Typography sx={{ color: "#c53122" }} variant='h4'>Dominic Networks</Typography>
                     <Typography variant='h6'>The best internet service Provider in Noida</Typography>
                 </Box>
             </Box>
 
-            <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 3rem", m: "10px auto 0px", backgroundColor:"#C53122", color:"white" }}>
+            <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 3rem", m: "10px auto 0px" }}>
                 <Typography color="" textAlign="left" fontSize="18px" lineHeight="30px" >
                 Creating a website for a fiber and internet service provider is an important task to showcase your services and connect with potential customers. Here are some steps and considerations to help you get started:
                 <br />
-                <br />
+                
                 <b>Define Your Goals and Audience: </b>
                 Determine the primary goals of your website, such as attracting new customers, providing information, or enabling online sales.
                 Identify your target audience. Are you serving residential customers, businesses, or both?
                 <br />
-                <br />
+                
                 <b>Choose a Domain Name and Hosting: </b>
                 Select a domain name that reflects your business and is easy to remember.
                 Choose a reliable web hosting provider to ensure your website is always accessible.
                 <br />
-                <br />
+                
                 <b>Website Design: </b>
                 Create a clean and professional design that reflects your brand.
                 Ensure your website is mobile-responsive for users on different devices.
                 Consider using high-quality images and graphics to showcase your services.
                 <br />
-                <br />
+                
                 <b>Content Creation: </b>
                 Provide detailed information about your fiber and internet services, including packages, pricing, and coverage areas.
                 Highlight any unique selling points or benefits of choosing your services.
                 Include a blog or news section to share updates and industry insights.
                 <br />
-                <br />
+                
                 <b>Contact Information: </b>
                 Make it easy for visitors to contact you by including a contact form, phone number, and email address.
                 Consider adding a chat or messaging option for immediate customer support.
                 <br />
-                <br />
+                
                 <b>Service Availability: </b>
                 Implement a tool or map that allows users to check if your services are available in their area.
                 <br />
-                <br />
+                
                 <b>Customer Testimonials: </b>
                 Display customer reviews and testimonials to build trust and credibility.
                 <b />
@@ -63,7 +65,7 @@ const About = () => {
                 Performance and Speed: 
                 Optimize your website for fast loading times to provide a better user experience.
                 <br />
-                <br />
+                
                 <b>Security: </b>
                 Ensure the security of your website and customer data by using HTTPS and regularly updating plugins and software.
                 SEO (Search Engine Optimization):
@@ -119,22 +121,39 @@ const About = () => {
                 <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "4rem", m: "0 auto" }}>
                 <div className="container">
                     <div className="founder-img">
-                        <img src={founder} alt="founder image" height="150px" />
+                        <div className="row">
+                            <div className="col-lg-4">
+                            <img src={d} alt="founder image"  width="100%" height="350px"  />
+                            <h4>Ashok Kumar Gupta </h4>
+                            <h4>Chairman</h4>
+                            </div>
+                            <div className="col-lg-4">
+                            <img src={md} alt="founder image"  width="100%" height="350px"/>
+                            <h4>Ashish Agrawal</h4>
+                            <h4>Managing Director</h4>
+                            </div>
+                            <div className="col-lg-4">
+                            <img src={founder} alt="founder image"  width="100%" height="350px"/>
+                            <h4>Master Prakhar Agarwal</h4>
+                            <h4>Founder</h4>
+                            </div>
+                        </div>
+                      
                     </div>
                        
                 </div>
-                    <Box sx={{ display: "flex", alignItems: "center", mb: "1rem" }}>
+                    {/* <Box sx={{ display: "flex", alignItems: "center", mb: "1rem" }}>
                         <Typography component="div" variant="h4">
                             Our
                         </Typography>
                         <Typography color="#c53122" component="div" variant="h4" marginLeft="10px">
                             Founder
                         </Typography>
-                    </Box>
-                    <Typography color="" textAlign="left" fontSize="18px" lineHeight="35px" >
-                        With over 20 years of telecommunications expertise, "Ashok Kumar Gupta" is a visionary leader in the industry. In 2008, he founded DOMINIC NETWORKING PVT. LTD. to provide top-quality communication solutions that adapt to the evolving needs of businesses and consumers.
+                    </Box> */}
+                    <Typography color="" textAlign="left" fontSize="18px" mt="5px"  >
+                        With over 2 years of telecommunications expertise, "Ashok Kumar Gupta" is a visionary leader in the industry. In 2022, he founded DOMINIC NETWORKING PVT. LTD. to provide top-quality communication solutions that adapt to the evolving needs of businesses and consumers.
                         Under "Ashish Aggarwal" leadership, Dominic has earned a reputation for delivering reliable phone, data, and messaging solutions, prioritizing an excellent client experience. His passion for technology and innovation has driven the creation of cutting-edge products and services, keeping DOMINIC at the forefront of the rapidly evolving telecom sector.
-                        "Ashish Aggarwal" vision is to revolutionize interpersonal connections and communication, believing that technology can enhance accessibility, reliability, and convenience. As the CEO of DOMINIC NETWORKING Pvt. Ltd., he remains dedicated to offering advanced communication solutions that meet the demands of businesses and consumers, envisioning a world where seamless, fast, and efficient communication connects people anytime, anywhere.
+                        "Ashish Aggarwal" vision is to revolutionize interpersonal connections and communication, believing that technology can enhance accessibility, reliability, and convenience. As the Managing Director of DOMINIC NETWORKING Pvt. Ltd., he remains dedicated to offering advanced communication solutions that meet the demands of businesses and consumers, envisioning a world where seamless, fast, and efficient communication connects people anytime, anywhere.
                     </Typography>
                 </Box>
             </div>

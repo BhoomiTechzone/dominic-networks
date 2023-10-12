@@ -16,6 +16,8 @@ import c2 from '../image/contact2.PNG'
 import c3 from '../image/contact3.png'
 import c4 from '../image/contact4.png'
 import Form from './Form';
+import { BiPhoneCall } from 'react-icons/bi';
+import { AiOutlineMail} from 'react-icons/ai';
 
 const Contact = () => {
     const data = {
@@ -254,16 +256,17 @@ const Contact = () => {
                                     <h5>Head Office : </h5>
                                     <p>H.N. 502 , Tulsi Park ,Near Lions
                                         Eye Hospital, Balrampur-271201 U.P. (India)</p>
-                                    <br />
-                                    <p> <b>T:</b>  +91-9838022833</p>
-                                    <p> <b>M:</b>  support@dominicnetworks.com</p>
+                                   
+                                    
+                                    <p> <b><BiPhoneCall/> </b>  +91-9838022833</p>
+                                    <p> <b><AiOutlineMail/></b>  support@dominicnetworks.com</p>
                                 </div>
                                 <div className="add2">
                                     <h5>Corporate Office : </h5>
                                     <p>A-36, Sector-63 <br /> Noida Uttar Pradesh</p>
-                                    <br />
-                                    <p> <b>T:</b>  +91-9838022833</p>
-                                    <p> <b>M:</b>  support@dominicnetworks.com</p>
+                                    
+                                    <p> <b><BiPhoneCall/></b>  +91-9838022833</p>
+                                    <p> <b><AiOutlineMail/></b>  support@dominicnetworks.com</p>
                                 </div>
                             </div>
                         </div>

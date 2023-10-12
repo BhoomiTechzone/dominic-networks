@@ -43,7 +43,8 @@ ul li{
 }
 
 .footer-vision-mission{
-  background-image: url('./image/fiber.PNG');
+  /* background-image: url('./image/fiber.PNG'); */
+  background-color: #808080;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -93,5 +94,13 @@ ul li{
 }
 
 .footer-icon:hover{
+  color: #c53122;
+}
+.founder-img img{
+  padding-bottom: 10px;
+  border: 2px solid black;
+}
+.founder-img h4{
+  padding-top: 5px;
   color: #c53122;
 }

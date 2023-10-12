@@ -8,7 +8,7 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import imgl from '../image/logo/logo.png'
+import imgl from '../image/logo/Correction-4-removebg-preview.png'
 import { Link } from 'react-router-dom';
 
 
@@ -19,7 +19,7 @@ const Footer = () => {
             <Card sx={{ display: 'flex',backgroundColor:"#808080" ,justifyContent: "space-between",  flexWrap: "wrap" }}>
                 <CardMedia
                     component="img"
-                    sx={{ width: 420, height: 80 }}
+                    sx={{ width: 400, height: 200 }}
                     image={imgl}
                     alt="Live from space album cover"
                 />
