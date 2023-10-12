@@ -17,7 +17,7 @@ const PlanCard = () => {
                     className="owl-theme"
                     loop
                     nav
-                    margin={10}
+                    margin={15}
                     center
                     dots={false}
                     autoplay
@@ -32,8 +32,8 @@ const PlanCard = () => {
                         }
                     }
                 >
-                    <div><div className="card s-card "   >
-                        <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
+                    <div><div className="card s-card " >
+                        <Box sx={{ backgroundColor: "white",  mt: "2rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                                 <Typography sx={{color:"#c53122"}} variant='h4' marginBottom="2px">
                                     Standard
@@ -70,7 +70,7 @@ const PlanCard = () => {
                         </Box>
                     </div></div>
                     <div> <div className="card s-card "   >
-                        <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
+                        <Box sx={{ backgroundColor: "white", mt: "2rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                                 <Typography sx={{color:"#c53122"}} variant='h4' marginBottom="2px">
                                     Business
@@ -107,9 +107,9 @@ const PlanCard = () => {
                         </Box>
                     </div></div>
                     <div> <div className="card s-card "   >
-                        <Box sx={{ backgroundColor: "white", minWidth: "420px", minHeight: "550px", mt: "3rem", borderRadius: "10px" }}>
+                        <Box sx={{ backgroundColor: "white", mt: "2rem", borderRadius: "10px" }}>
                             <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                                <Typography sx={{color:"#c53122"}} variant='h4'>
+                                <Typography sx={{color:"#c53122"}} variant='h4' marginBottom="2px">
                                     Enterainment
                                 </Typography>
                                 <Box>
@@ -143,8 +143,6 @@ const PlanCard = () => {
                             </div>
                         </Box>
                     </div></div>
-
-
                 </OwlCarousel>
             </div>
 
