@@ -21,7 +21,7 @@ const About = () => {
             </Box>
 
             <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 3rem", m: "10px auto 0px" }}>
-                <Typography color="" textAlign="left" fontSize="18px" lineHeight="30px" >
+                <Typography color="" textAlign="left" fontSize="18px" lineHeight="25px" >
                 Creating a website for a fiber and internet service provider is an important task to showcase your services and connect with potential customers. Here are some steps and considerations to help you get started:
                 <br />
                 

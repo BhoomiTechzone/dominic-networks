@@ -11,7 +11,7 @@ const Privacy = () => {
                 <Box sx={{ textAlign: "center", marginTop: "8rem" }}>
                     <Typography sx={{ color: "#c53122", mt: "1rem" }} variant='h4'>Privacy Policy</Typography>
                 </Box>
-                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 5rem", m: "10px auto 0px" }}>
+                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 14rem", m: "10px auto 0px" }} className="PaddingInText">
                     <Typography color="" textAlign="left" fontSize="18px">
                         <Typography fontSize="18px" mb="10px">
                             This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects you.
@@ -224,9 +224,9 @@ const Privacy = () => {
 
             <Box className="Footer-Header-Container">
                 <Box sx={{ textAlign: "center", marginTop: "3rem" }}>
-                    <Typography sx={{ color: "#c53122", mt: "2rem" }} variant='h4'>Refund Policy/Cancellation Policy</Typography>
+                    <Typography sx={{ color: "#c53122", mt: "2rem" }} variant='h4'>Refund / Cancellation Policy</Typography>
                 </Box>
-                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 5rem", m: "10px auto 0px" }}>
+                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 14rem", m: "10px auto 0px" }} className="PaddingInText">
                     <Typography color="" textAlign="left" fontSize="18px" lineHeight="30px" >
                         <Typography fontSize="18px" mb="8px">
                             You can request Cancellation before the initiation of the delivery process by us, once our delivery process have started no request will be entertained for cancellation of the order.

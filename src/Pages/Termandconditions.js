@@ -8,11 +8,11 @@ const Termandconditions = () => {
     return (
         <div>
             <SecondNavbar />
-            <Box className="Footer-Header-Container">
+            <Box className="">
                 <Box sx={{ textAlign: "center", marginTop: "7rem" }}>
                     <Typography sx={{ color: "#c53122", mt: "2rem" }} variant='h4'>Term and Conditions</Typography>
                 </Box>
-                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 3rem", m: "10px auto 0px" }}>
+                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 14rem", m: "10px auto 0px" }} className="PaddingInText">
                     <Typography  textAlign="left" fontSize="18px" lineHeight="30px" >
                         <Typography fontSize="18px">
                           Welcome to dominicnetworks.com. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern Dominic Networks’ relationship with you in relation to this website.

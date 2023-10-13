@@ -6,6 +6,7 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
 b, strong{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
   font-size: 18px;
@@ -32,6 +33,9 @@ p{
     margin-top: 4rem;
     height: 200px;
     width: 100%;
+  }
+  .PaddingInText{
+    padding: 2rem !important;
   }
 }
 
