@@ -8,6 +8,8 @@
 }
 
 .navbar a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
   color: #c53122 !important;
   background-color: transparent !important;
 }
@@ -18,6 +20,8 @@
 }
 
 .second-nav a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
   color: #c53122 !important;
   background-color: transparent !important;
 }
@@ -28,7 +32,8 @@
 
 .navbar.active a{
   color: #c53122 !important;
-
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 }
 
 
