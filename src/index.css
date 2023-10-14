@@ -12,6 +12,10 @@ b, strong{
   font-size: 18px;
 }
 
+h4{
+  margin: 0 !important;
+}
+
 p, h5, h6{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
   font-size: 18px;
