@@ -123,17 +123,17 @@ const About = () => {
                         <div className="founder-img">
                             <div className="row">
                                 <div className="col-lg-4">
-                                    <img src={d} alt="founder image" width="70%" height="300px" />
+                                    <img src={d} alt="founder image" width="" height="200px" />
                                     <h4>Ashok Kumar Gupta </h4>
                                     <h4>Chairman</h4>
                                 </div>
                                 <div className="col-lg-4">
-                                    <img src={md} alt="founder image" width="70%" height="300px" />
+                                    <img src={md} alt="founder image" width="" height="200px" />
                                     <h4>Ashish Agrawal</h4>
                                     <h4>Managing Director</h4>
                                 </div>
                                 <div className="col-lg-4">
-                                    <img src={founder} alt="founder image" width="70%" height="300px" />
+                                    <img src={founder} alt="founder image" width="" height="200px" />
                                     <h4>Master Prakhar Agarwal</h4>
                                     <h4>Founder</h4>
                                 </div>
