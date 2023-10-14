@@ -40,6 +40,12 @@ p, h5, h6{
   .plans-image-container img{
     overflow: scroll;
   }
+  .footer-logo{
+    width: 95% !important;
+  }
+  .footer-container-icons{
+    padding: 1rem 1rem !important;
+  }
 }
 
 ::marker{
