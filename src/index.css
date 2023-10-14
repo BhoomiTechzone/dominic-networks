@@ -37,6 +37,17 @@ p{
   .PaddingInText{
     padding: 2rem !important;
   }
+  .plan-image img{
+    /* width: 340px; */
+    overflow: scroll;
+  }
+  .footer-image{
+    width: 95% !important;
+
+  }
+  .footer-icons-container{
+    padding: 0.4rem 1rem !important;
+  }
 }
 
 ::marker{

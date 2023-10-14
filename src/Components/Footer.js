@@ -16,10 +16,11 @@ const Footer = () => {
 
     return (
         <>
-            <Card sx={{ display: 'flex',backgroundColor:"#808080" ,justifyContent: "space-between",  flexWrap: "wrap" }}>
+            <Card sx={{ display: 'flex', backgroundColor: "#808080", justifyContent: "space-between", flexWrap: "wrap" }}>
                 <CardMedia
+                    className='footer-image'
                     component="img"
-                    sx={{ width: 400, height: 200 }}
+                    sx={{ width: "20%", height: "20%" }}
                     image={imgl}
                     alt="Live from space album cover"
                 />
@@ -51,7 +52,7 @@ const Footer = () => {
                                 For Business
                             </Link>
                         </Typography>
-                        <Typography sx={{ borderBottom: "1px dashed white", color: "#fff" }} fontSize="15px" p="2px 0px" variant="subtitle1"  component="div">
+                        <Typography sx={{ borderBottom: "1px dashed white", color: "#fff" }} fontSize="15px" p="2px 0px" variant="subtitle1" component="div">
                             <Link to="/contact" className='flink'>
                                 Contact Us
                             </Link>
@@ -94,7 +95,7 @@ const Footer = () => {
                             </Typography>
                         </Box>
                         <Typography variant="subtitle1" fontSize="15px" color="white" component="div">
-                            <b>Dominic Networks Pvt. Ltd.</b> 
+                            <b>Dominic Networks Pvt. Ltd.</b>
                         </Typography>
                         <Typography variant="subtitle1" fontSize="15px" color="white" component="div">
                             <b>Head Office : </b> H.N. 502 , Tulsi Park ,Near Lions <br /> Eye Hospital, Balrampur-271201 U.P. (India)
@@ -110,10 +111,12 @@ const Footer = () => {
                     </CardContent>
                 </Box>
             </Card>
-            <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "2px solid #fff", backgroundColor: "#808080", p: "0.2rem 2rem" }}>
-                <Typography sx={{ color: "white", fontSize: "15px" }}>
-                    All Right Reserved. ©2023 Dominic Networks.
-                </Typography>
+            <Box className="footer-icons-container" sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "2px solid #fff", backgroundColor: "#808080", p: "0.2rem 2rem" }}>
+                <Box>
+                    <Typography sx={{ color: "white", fontSize: "15px" }}>
+                        All Right Reserved. ©2023 Dominic Networks.
+                    </Typography>
+                </Box>
                 <Box sx={{ display: 'flex', justifyContent: "space-between" }}>
                     <Box sx={{ display: "flex", justifyContent: "space-between", gap: "15px", alignItems: "center" }}>
                         <Typography sx={{ color: "white", fontSize: "15px" }}>
@@ -126,10 +129,10 @@ const Footer = () => {
                             <YouTubeIcon className='footer-icon' sx={{ color: "#fff", width: "55px", height: "55px", padding: "10px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.instagram.com/dnpl.wani/' target="_blank" rel="noreferrer">
-                            <InstagramIcon className='footer-icon'  sx={{ color: "#fff", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
+                            <InstagramIcon className='footer-icon' sx={{ color: "#fff", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                         <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
-                            <LinkedInIcon className='footer-icon'  sx={{ color: "#fff", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
+                            <LinkedInIcon className='footer-icon' sx={{ color: "#fff", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                     </Box>
                 </Box>

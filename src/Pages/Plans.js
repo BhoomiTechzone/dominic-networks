@@ -1,10 +1,10 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import PlanCard from './PlanCard';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import PlanImg from '../image/plan.jpeg'
 
 const Plans = () => {
 
@@ -21,14 +21,16 @@ const Plans = () => {
                         Fiber Plans
                     </Typography>
                 </Box>
-                <Typography color="white" variant='h5' textAlign="center">
+                <Typography color="white" variant='h6' textAlign="center">
                     Experience lightning-fast internet with
                 </Typography>
-                <Typography color="white" variant='h5' fontWeight="bold" marginBottom="1rem" textAlign="center">
+                <Typography color="white" variant='h6' fontWeight="bold" marginBottom="1rem" textAlign="center">
                     Our Fiber Plans - Choose the right plan for your needs!
                 </Typography>
             </Box>
-            <PlanCard />
+            <Box data-aos="fade-up" className="plan-image" sx={{display:"flex", justifyContent:"center"}}>
+              <img src={PlanImg} alt='plan' height="50%" />
+            </Box>
         </div>
     )
 }
