@@ -5,7 +5,6 @@ import Form from './Form';
 import SecondNavbar from '../Components/SecondNavbar';
 
 
-
 const Ott = () => {
     return (
         <div>
