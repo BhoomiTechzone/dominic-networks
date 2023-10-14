@@ -7,82 +7,82 @@ import d from '../image/DIRECTOR.png'
 import md from '../image/MD.png'
 
 const About = () => {
-    return ( 
+    return (
         <>
-        <SecondNavbar /> 
+            <SecondNavbar />
             <Box className="Footer-Header-Container">
-                <Box sx={{ textAlign: "center" , marginTop:"5.5rem"}}>
-                    <Box sx={{textAlign: "center", backgroundColor:"white"}}>
-                      <Typography p="1rem" color="" variant='h4'>We won't stop till we answer all your questions!</Typography>
+                <Box sx={{ textAlign: "center", marginTop: "5.5rem" }}>
+                    <Box sx={{ textAlign: "center", backgroundColor: "white" }}>
+                        <Typography p="1rem" color="" variant='h4'>We won't stop till we answer all your questions!</Typography>
                     </Box>
                     <Typography sx={{ color: "#c53122" }} variant='h4'>Dominic Networks</Typography>
                     <Typography variant='h6'>The best internet service Provider in Noida</Typography>
                 </Box>
             </Box>
 
-            <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 3rem", m: "10px auto 0px" }}>
+            <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 12rem", m: "10px auto 0px" }} className="PaddingInText">
                 <Typography color="" textAlign="left" fontSize="18px" lineHeight="25px" >
-                Creating a website for a fiber and internet service provider is an important task to showcase your services and connect with potential customers. Here are some steps and considerations to help you get started:
-                <br />
-                
-                <b>Define Your Goals and Audience: </b>
-                Determine the primary goals of your website, such as attracting new customers, providing information, or enabling online sales.
-                Identify your target audience. Are you serving residential customers, businesses, or both?
-                <br />
-                
-                <b>Choose a Domain Name and Hosting: </b>
-                Select a domain name that reflects your business and is easy to remember.
-                Choose a reliable web hosting provider to ensure your website is always accessible.
-                <br />
-                
-                <b>Website Design: </b>
-                Create a clean and professional design that reflects your brand.
-                Ensure your website is mobile-responsive for users on different devices.
-                Consider using high-quality images and graphics to showcase your services.
-                <br />
-                
-                <b>Content Creation: </b>
-                Provide detailed information about your fiber and internet services, including packages, pricing, and coverage areas.
-                Highlight any unique selling points or benefits of choosing your services.
-                Include a blog or news section to share updates and industry insights.
-                <br />
-                
-                <b>Contact Information: </b>
-                Make it easy for visitors to contact you by including a contact form, phone number, and email address.
-                Consider adding a chat or messaging option for immediate customer support.
-                <br />
-                
-                <b>Service Availability: </b>
-                Implement a tool or map that allows users to check if your services are available in their area.
-                <br />
-                
-                <b>Customer Testimonials: </b>
-                Display customer reviews and testimonials to build trust and credibility.
-                <b />
-                <b />
-                <b>FAQ Section: </b>
-                Include a frequently asked questions section to address common inquiries.
-                Performance and Speed: 
-                Optimize your website for fast loading times to provide a better user experience.
-                <br />
-                
-                <b>Security: </b>
-                Ensure the security of your website and customer data by using HTTPS and regularly updating plugins and software.
-                SEO (Search Engine Optimization):
-                Optimize your website for search engines to improve its visibility in search results.
-                Social Media Integration:
-                Link to your social media profiles to encourage engagement and communication.
-                Legal and Privacy Considerations:
-                Include a privacy policy, terms of service, and any other necessary legal documents.
-                Analytics:
-                Set up website analytics to track user behavior and make data-driven improvements.
-                Maintenance and Updates:
-                Regularly update your website with fresh content and ensure that all features are working correctly.
-                Testing:
-                Test your website across different browsers and devices to ensure compatibility.
-                Marketing and Promotion:
-                Develop a marketing strategy to drive traffic to your website through various channels, such as social media, email marketing, and online advertising.
-                Building a website for your fiber and internet service provider business is a significant step in reaching your target audience and growing your customer base. Remember to keep the user experience in mind and continuously improve your site based on feedback and performance metrics.
+                    Creating a website for a fiber and internet service provider is an important task to showcase your services and connect with potential customers. Here are some steps and considerations to help you get started:
+                    <br />
+
+                    <b>Define Your Goals and Audience: </b>
+                    Determine the primary goals of your website, such as attracting new customers, providing information, or enabling online sales.
+                    Identify your target audience. Are you serving residential customers, businesses, or both?
+                    <br />
+
+                    <b>Choose a Domain Name and Hosting: </b>
+                    Select a domain name that reflects your business and is easy to remember.
+                    Choose a reliable web hosting provider to ensure your website is always accessible.
+                    <br />
+
+                    <b>Website Design: </b>
+                    Create a clean and professional design that reflects your brand.
+                    Ensure your website is mobile-responsive for users on different devices.
+                    Consider using high-quality images and graphics to showcase your services.
+                    <br />
+
+                    <b>Content Creation: </b>
+                    Provide detailed information about your fiber and internet services, including packages, pricing, and coverage areas.
+                    Highlight any unique selling points or benefits of choosing your services.
+                    Include a blog or news section to share updates and industry insights.
+                    <br />
+
+                    <b>Contact Information: </b>
+                    Make it easy for visitors to contact you by including a contact form, phone number, and email address.
+                    Consider adding a chat or messaging option for immediate customer support.
+                    <br />
+
+                    <b>Service Availability: </b>
+                    Implement a tool or map that allows users to check if your services are available in their area.
+                    <br />
+
+                    <b>Customer Testimonials: </b>
+                    Display customer reviews and testimonials to build trust and credibility.
+                    <b />
+                    <b />
+                    <b>FAQ Section: </b>
+                    Include a frequently asked questions section to address common inquiries.
+                    Performance and Speed:
+                    Optimize your website for fast loading times to provide a better user experience.
+                    <br />
+
+                    <b>Security: </b>
+                    Ensure the security of your website and customer data by using HTTPS and regularly updating plugins and software.
+                    SEO (Search Engine Optimization):
+                    Optimize your website for search engines to improve its visibility in search results.
+                    Social Media Integration:
+                    Link to your social media profiles to encourage engagement and communication.
+                    Legal and Privacy Considerations:
+                    Include a privacy policy, terms of service, and any other necessary legal documents.
+                    Analytics:
+                    Set up website analytics to track user behavior and make data-driven improvements.
+                    Maintenance and Updates:
+                    Regularly update your website with fresh content and ensure that all features are working correctly.
+                    Testing:
+                    Test your website across different browsers and devices to ensure compatibility.
+                    Marketing and Promotion:
+                    Develop a marketing strategy to drive traffic to your website through various channels, such as social media, email marketing, and online advertising.
+                    Building a website for your fiber and internet service provider business is a significant step in reaching your target audience and growing your customer base. Remember to keep the user experience in mind and continuously improve your site based on feedback and performance metrics.
                 </Typography>
             </Box>
 
@@ -116,32 +116,30 @@ const About = () => {
                 </Box>
             </div>
             <div>
-                
 
-                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "4rem", m: "0 auto" }}>
-                <div className="container">
-                    <div className="founder-img">
-                        <div className="row">
-                            <div className="col-lg-4">
-                            <img src={d} alt="founder image"  width="100%" height="350px"  />
-                            <h4>Ashok Kumar Gupta </h4>
-                            <h4>Chairman</h4>
-                            </div>
-                            <div className="col-lg-4">
-                            <img src={md} alt="founder image"  width="100%" height="350px"/>
-                            <h4>Ashish Agrawal</h4>
-                            <h4>Managing Director</h4>
-                            </div>
-                            <div className="col-lg-4">
-                            <img src={founder} alt="founder image"  width="100%" height="350px"/>
-                            <h4>Master Prakhar Agarwal</h4>
-                            <h4>Founder</h4>
+
+                <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "4rem 0px 2rem", m: "0 auto" }} >
+                    <div className="container">
+                        <div className="founder-img">
+                            <div className="row">
+                                <div className="col-lg-4">
+                                    <img src={d} alt="founder image" width="70%" height="300px" />
+                                    <h4>Ashok Kumar Gupta </h4>
+                                    <h4>Chairman</h4>
+                                </div>
+                                <div className="col-lg-4">
+                                    <img src={md} alt="founder image" width="70%" height="300px" />
+                                    <h4>Ashish Agrawal</h4>
+                                    <h4>Managing Director</h4>
+                                </div>
+                                <div className="col-lg-4">
+                                    <img src={founder} alt="founder image" width="70%" height="300px" />
+                                    <h4>Master Prakhar Agarwal</h4>
+                                    <h4>Founder</h4>
+                                </div>
                             </div>
                         </div>
-                      
                     </div>
-                       
-                </div>
                     {/* <Box sx={{ display: "flex", alignItems: "center", mb: "1rem" }}>
                         <Typography component="div" variant="h4">
                             Our
@@ -150,7 +148,9 @@ const About = () => {
                             Founder
                         </Typography>
                     </Box> */}
-                    <Typography color="" textAlign="left" fontSize="18px" mt="5px"  >
+                </Box>
+                <Box sx={{ padding: "0rem 11rem 2rem" }} className="PaddingInText">
+                    <Typography color="" textAlign="left" fontSize="18px" mt="5px" >
                         With over 2 years of telecommunications expertise, "Ashok Kumar Gupta" is a visionary leader in the industry. In 2022, he founded DOMINIC NETWORKING PVT. LTD. to provide top-quality communication solutions that adapt to the evolving needs of businesses and consumers.
                         Under "Ashish Agarwal" leadership, Dominic has earned a reputation for delivering reliable phone, data, and messaging solutions, prioritizing an excellent client experience. His passion for technology and innovation has driven the creation of cutting-edge products and services, keeping DOMINIC at the forefront of the rapidly evolving telecom sector.
                         "Ashish Agarwal" vision is to revolutionize interpersonal connections and communication, believing that technology can enhance accessibility, reliability, and convenience. As the Managing Director of DOMINIC NETWORKING Pvt. Ltd., he remains dedicated to offering advanced communication solutions that meet the demands of businesses and consumers, envisioning a world where seamless, fast, and efficient communication connects people anytime, anywhere.
