@@ -37,4 +37,7 @@
     .overviewText-container h5{
         font-size: 20px;
     }
+    .overviewText-container img{
+        width: 100%;
+    }
 }

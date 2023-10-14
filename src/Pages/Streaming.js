@@ -25,7 +25,7 @@ const Streaming = () => {
             Now Streaming
           </Typography>
         </Box>
-        <Typography color="black" variant='h4' textAlign="center">
+        <Typography color="black" variant='h5' textAlign="center">
           Experience lightning-fast internet with
         </Typography>
       </Box>
