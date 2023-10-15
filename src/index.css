@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  !important;
 }
 
 
@@ -38,15 +38,18 @@ p, h5, h6{
     height: 200px;
     width: 100%;
   }
+  
   .PaddingInText{
     padding: 2rem !important;
   }
   .plans-image-container img{
     overflow: scroll;
   }
+
   .footer-logo{
-    width: 95% !important;
+    width: 58% !important;
   }
+
   .footer-container-icons{
     padding: 1rem 1rem !important;
   }
@@ -123,6 +126,11 @@ ul li{
 .footer-icon:hover{
   color: #c53122;
 }
+
+.css-rg6yy4-MuiTypography-root{
+  line-height: 1.35 !important;
+}
+
 .founder-img img{
   padding-bottom: 10px;
   border: 2px solid black;
