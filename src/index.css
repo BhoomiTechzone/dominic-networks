@@ -38,7 +38,7 @@ p, h5, h6{
     height: 200px;
     width: 100%;
   }
-  
+
   .PaddingInText{
     padding: 2rem !important;
   }
@@ -48,6 +48,8 @@ p, h5, h6{
 
   .footer-logo{
     width: 58% !important;
+    padding: 0;
+    margin: auto;
   }
 
   .footer-container-icons{
