@@ -94,17 +94,17 @@ const Footer = () => {
                                 Connect Us
                             </Typography>
                         </Box>
-                        <Typography variant="subtitle1" fontSize="15px" color="white" >
+                        <Typography className='footer-lineHight' variant="subtitle1" fontSize="15px" color="white" >
                             <b>Dominic Networks Pvt. Ltd.</b> 
                         </Typography>
-                        <Typography variant="subtitle1" fontSize="15px" color="white" >
+                        <Typography className='footer-lineHight' variant="subtitle1" fontSize="15px" color="white" >
                             <b>Head Office : </b> H.N. 502 , Tulsi Park ,Near Lions <br /> Eye Hospital, Balrampur-271201 U.P. (India)
                         </Typography>
-                        <Typography variant="subtitle1" fontSize="15px" color="white" >
+                        <Typography className='footer-lineHight' variant="subtitle1" fontSize="15px" color="white" >
                             <b>Corporate Office : </b> A-36, Sector-63 Noida Uttar Pradesh
                         </Typography>
                         <Link className='flink' to="tel: 9838022833">
-                            <Typography variant="subtitle1" fontSize="15px" >
+                            <Typography className='footer-lineHight' variant="subtitle1" fontSize="15px" >
                                 <b >Call Us: +91-9838022833</b>
                             </Typography>
                         </Link>
