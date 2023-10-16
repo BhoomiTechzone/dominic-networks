@@ -52,11 +52,6 @@ const Footer = () => {
                                 For Business
                             </Link>
                         </Typography>
-                        <Typography sx={{ borderBottom: "1px dashed white", color: "#fff" }} fontSize="15px" p="2px 0px" variant="subtitle1"  component="div">
-                            <Link to="/contact" className='flink'>
-                                Contact Us
-                            </Link>
-                        </Typography>
                     </CardContent>
                 </Box>
 
@@ -83,6 +78,11 @@ const Footer = () => {
                                 Refund Policy
                             </Link>
                         </Typography>
+                        <Typography sx={{ borderBottom: "1px dashed white", cursor: 'pointer' }} fontSize="15px" p="2px 0px" variant="subtitle1" color="" component="div">
+                            <Link to="/contact" className='flink'>
+                                Contact Us
+                            </Link>
+                        </Typography>
                     </CardContent>
                 </Box>
 
@@ -95,17 +95,17 @@ const Footer = () => {
                             </Typography>
                         </Box>
                         <Typography className='footer-lineHight' variant="subtitle1" fontSize="15px" color="white" >
-                            <b>Dominic Networks Pvt. Ltd.</b> 
+                            Dominic Networks Pvt. Ltd. 
                         </Typography>
                         <Typography className='footer-lineHight' variant="subtitle1" fontSize="15px" color="white" >
-                            <b>Head Office : </b> H.N. 502 , Tulsi Park ,Near Lions <br /> Eye Hospital, Balrampur-271201 U.P. (India)
+                            Head Office: H.N. 502 , Tulsi Park ,Near Lions <br /> Eye Hospital, Balrampur-271201 U.P. (India)
                         </Typography>
                         <Typography className='footer-lineHight' variant="subtitle1" fontSize="15px" color="white" >
-                            <b>Corporate Office : </b> A-36, Sector-63 Noida Uttar Pradesh
+                            Corporate Office: A-36, Sector-63 Noida Uttar Pradesh
                         </Typography>
                         <Link className='flink' to="tel: 9838022833">
                             <Typography className='footer-lineHight' variant="subtitle1" fontSize="15px" >
-                                <b >Call Us: +91-9838022833</b>
+                                Call Us: +91-9838022833
                             </Typography>
                         </Link>
                     </CardContent>
