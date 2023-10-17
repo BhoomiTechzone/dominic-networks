@@ -55,7 +55,7 @@ const Home = () => {
 
             }
           >
-            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", margin: "0px 40px" }} className="card s-card "  >
+            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", margin: "0px 40px" }} className=""  >
               <Box sx={{ borderRadius: "10px", padding: "3rem", height: "240px" }}>
                 <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
                   I've never experienced a single outage with Dominic Networks' s Fiber Internet and I can't thank them enough.
@@ -69,7 +69,7 @@ const Home = () => {
               </Box>
             </div>
             
-            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", margin: "0px 40px" }} className="card s-card">
+            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", margin: "0px 40px" }} className="">
               <Box sx={{ borderRadius: "10px", padding: "2rem" , height: "240px"}}>
                 <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
                   Best Internet Fiber service in town, look no further than Dominic Networks. They've set the bar high for speed and reliability.
@@ -83,7 +83,7 @@ const Home = () => {
               </Box>
             </div>
 
-            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", margin: "0px 40px" }} className="card s-card ">
+            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", margin: "0px 40px" }} className="">
               <Box sx={{ borderRadius: "10px", padding: "3rem", height: "240px" }}>
                 <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
                   Awesome customer support, they fixed any issue with in given time
@@ -97,7 +97,7 @@ const Home = () => {
               </Box>
             </div>
 
-            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", margin: "0px 40px" }} className="card s-card">
+            <div style={{ boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)", margin: "0px 40px" }} className="">
               <Box sx={{ borderRadius: "10px", padding: "3rem" , height: "240px"}}>
                 <Typography sx={{ fontSize: "17px", textAlign: "center" }} color="text.secondary">
                   Awesome customer support, they fixed any issue with in given time
