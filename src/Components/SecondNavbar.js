@@ -3,27 +3,27 @@ import { useState } from 'react';
 import './navbar.css';
 import logo from '../image/logo/logo.png'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const SecondNavbar = () => {
 
-    const [bar, setbar] = useState(false);
+  const [bar, setbar] = useState(false);
 
-    const changeBackground = () => {
-        if (window.scrollY >= 100) {
-            setbar(true)
-        } else {
-            setbar(false)
-        }
+  const changeBackground = () => {
+    if (window.scrollY >= 100) {
+      setbar(true)
+    } else {
+      setbar(false)
     }
-    window.addEventListener('scroll', changeBackground);
+  }
+  window.addEventListener('scroll', changeBackground);
 
 
-    return (
-        <div>
-            <Navbar expand="lg" sticky='' fixed="top"  className={bar ? 'navbar active' : 'navbar second-nav'}>
-            <Container fluid>
+  return (
+    <div>
+      <Navbar expand="lg" sticky='' fixed="top" className={bar ? 'navbar act' : 'navbar second-nav'}>
+        <Container fluid>
           <Navbar.Brand href="/">
             <img src={logo} alt="" height="60px" />
           </Navbar.Brand>
@@ -34,31 +34,32 @@ const SecondNavbar = () => {
               navbarScroll
             >
               <Nav.Link className='NavLink' href="/" >
-               <Link to="/" className='flink'> Home </Link>
-                </Nav.Link>
-              <Nav.Link  >
-              <Link to="/about" className='flink'>About Us</Link></Nav.Link>
+                <NavLink to="/" className='flink'> Home </NavLink>
+              </Nav.Link>
+              <Nav.Link>
+                <NavLink to="/about" className='flink'>About Us</NavLink>
+              </Nav.Link>
               <NavDropdown title="For Individual" id="navbarScrollingDropdown">
-                <NavDropdown.Item ><Link to="/broadband" className='flink'>Broadband </Link></NavDropdown.Item>
-                <NavDropdown.Item ><Link to="/ott" className='flink'>OTT</Link></NavDropdown.Item>
-                <NavDropdown.Item ><Link to="/iptv" className='flink'>IPTV</Link></NavDropdown.Item>  
+                <NavDropdown.Item ><NavLink to="/broadband" className='flink'>Broadband </NavLink></NavDropdown.Item>
+                <NavDropdown.Item ><NavLink to="/ott" className='flink'>OTT</NavLink></NavDropdown.Item>
+                <NavDropdown.Item ><NavLink to="/iptv" className='flink'>IPTV</NavLink></NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="For Business" id="navbarScrollingDropdown">
-              <NavDropdown.Item ><Link to="/internetleaseline" className='flink'>Internet Lease Line</Link></NavDropdown.Item>
-              <NavDropdown.Item ><Link to="/cloudtelephony" className='flink'>Cloud Telephony</Link></NavDropdown.Item>
+                <NavDropdown.Item ><NavLink to="/internetleaseline" className='flink'>Internet Lease Line</NavLink></NavDropdown.Item>
+                <NavDropdown.Item ><NavLink to="/cloudtelephony" className='flink'>Cloud Telephony</NavLink></NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Policy" id="navbarScrollingDropdown">
-              <NavDropdown.Item ><Link to="/terms-conditions" className='flink'>Terms and Condition</Link></NavDropdown.Item>
-              <NavDropdown.Item ><Link to="/privacy" className='flink'>Privacy Policy</Link></NavDropdown.Item>
+                <NavDropdown.Item ><NavLink to="/terms-conditions" className='flink'>Terms and Condition</NavLink></NavDropdown.Item>
+                <NavDropdown.Item ><NavLink to="/privacy" className='flink'>Privacy Policy</NavLink></NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link ><Link to="/contact" className='flink'>Contact</Link></Nav.Link>
+              <Nav.Link ><NavLink to="/contact" className='flink'>Contact</NavLink></Nav.Link>
               {/* <Nav.Link ><Link to="/ourcompany" className='flink'>Our company</Link></Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
-            </Navbar>
-        </div>
-    )
+      </Navbar>
+    </div>
+  )
 }
 
 export default SecondNavbar;

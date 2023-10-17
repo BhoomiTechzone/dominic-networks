@@ -1,4 +1,4 @@
-.navbar.active{
+.navbar.act{
   background-color: white;
   color: #827d7c !important;
   
@@ -30,18 +30,18 @@
   background-color: transparent !important;
 }
 
-.navbar.active a{
+.navbar.act a{
   color: #c53122 !important;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
 }
 
 
-.navbar.active .dropdown-item{
+.navbar.act .dropdown-item{
   /* color: aliceblue !important; */
   color: rgb(229, 15, 15) !important;
 }
-.navbar.active .dropdown-item:hover{
+.navbar.act .dropdown-item:hover{
   /* color: aliceblue !important; */
   color: #c53122 !important;
 }

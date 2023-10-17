@@ -137,7 +137,12 @@ ul li{
   padding-bottom: 10px;
   border: 2px solid black;
 }
+
 .founder-img h4{
   padding-top: 5px;
   color: #c53122;
+}
+
+.active{
+  border-bottom: 2px solid #c53122;
 }
