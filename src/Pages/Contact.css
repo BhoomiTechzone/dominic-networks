@@ -3,6 +3,11 @@
   color: rgb(180, 175, 175);
 }
 
+.sb-btn a{
+  text-decoration: none;
+  color: #433f39;
+}
+
 .contact-side h3 {
   /* font-size: 50px !important; */
   color: #c53122;
@@ -183,8 +188,9 @@
 
 }
 
-.contact-body {
-  /* background-color: #e0dfdf; */
+
+.list-items ul li{
+  font-size: 18px;
 }
 
 .contact-form .section-title {
@@ -227,7 +233,8 @@
 .sidebox{
   padding: 10px;
   background-color: rgb(230, 230, 230);
-  margin: 10px;border: 2px solid gray;
+  margin: 20px 0px;
+  border: 2px solid gray;
   height: 100px;
 }
 .sb-btn{

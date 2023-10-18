@@ -20,14 +20,14 @@ const Footer = () => {
                 <CardMedia
                     className='footer-logo'
                     component="img"
-                    sx={{ width:"12%", height:"12%", padding:"15px 0px 0px 15px"}}
+                    sx={{ width:"12%", height:"12%", padding:"5px 0px 0px"}}
                     image={imgl}
                     alt="Live from space album cover"
                 />
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1', width: "100%" }}>
                         <Box sx={{ display: "flex", alignItems: "center" }}>
-                            <Box sx={{ backgroundColor: "white", width: "2px", height: "25px" }} ></Box>
+                            <Box sx={{ backgroundColor: "white", width: "2px", height: "27px" }} ></Box>
                             <Typography color="white" component="div" variant="h6" m="6px">
                                 Quick Links
                             </Typography>
@@ -58,7 +58,7 @@ const Footer = () => {
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1', width: "100%" }}>
                         <Box sx={{ display: "flex", alignItems: "center" }}>
-                            <Box sx={{ backgroundColor: "white", width: "2px", height: "25px" }} ></Box>
+                            <Box sx={{ backgroundColor: "white", width: "2px", height: "27px" }} ></Box>
                             <Typography color="white" component="div" variant="h6" m="6px">
                                 Helpful Links
                             </Typography>
@@ -89,7 +89,7 @@ const Footer = () => {
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flex: '1', width: "100%" }}>
                         <Box sx={{ display: "flex", alignItems: "center" }}>
-                            <Box sx={{ backgroundColor: "white", width: "2px", height: "25px" }} ></Box>
+                            <Box sx={{ backgroundColor: "white", width: "2px", height: "27px" }} ></Box>
                             <Typography color="white" component="div" variant="h6" m="8px">
                                 Connect Us
                             </Typography>
@@ -111,7 +111,7 @@ const Footer = () => {
                     </CardContent>
                 </Box>
             </Card>
-            <Box className="footer-container-icons" sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "2px solid #fff", backgroundColor: "#808080", p: "0.2rem 2rem" }}>
+            <Box className="footer-container-icons" sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", borderTop: "2px solid #fff", backgroundColor: "#808080", p: "0.1rem 2rem" }}>
                 <Typography sx={{ color: "white", fontSize: "15px" }}>
                     All Right Reserved. ©2023 Dominic Networks.
                 </Typography>
@@ -129,7 +129,7 @@ const Footer = () => {
                         <a href='https://www.instagram.com/dnpl.wani/' target="_blank" rel="noreferrer">
                             <InstagramIcon className='footer-icon'  sx={{ color: "#fff", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
-                        <a href='https://www.youtube.com/@DominicNetworks' target="_blank" rel="noreferrer">
+                        <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer">
                             <LinkedInIcon className='footer-icon'  sx={{ color: "#fff", width: "40px", height: "40px", padding: "5px", borderRadius: "50%", cursor: "pointer" }} />
                         </a>
                     </Box>

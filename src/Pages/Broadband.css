@@ -1,7 +1,7 @@
 .bd-header{
     margin-top: 88px;
     height: 400px;
-    background: url("/src/image/4.png");
+    background: url("../image/broadband.jpg");
     background-size: cover;
 }
 .bd-header .container{

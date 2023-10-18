@@ -10,13 +10,17 @@ const Broadband = () => {
             <SecondNavbar />
             <div className="bd-header">
                 <div className="container">
-                    <h2>Broadband</h2>
-                </div>
 
+                </div>
             </div>
             <div>
                 <div className="container ct-content">
                     <div className="row">
+                        <div className="col-lg-5">
+                            <div className="ct-content-left-img">
+                                <img src={boyPic} alt="" height="400px" width="90%" />
+                            </div>
+                        </div>
                         <div className="col-lg-7">
                             <div className="ct-content-left">
                                 <h2>Broadband</h2>
@@ -27,11 +31,7 @@ const Broadband = () => {
                                     Join us today and embark on a journey to discover the future of connectivity.</p>
                             </div>
                         </div>
-                        <div className="col-lg-5">
-                            <div className="ct-content-left-img">
-                                <img src={boyPic} alt="" height="300px" width="90%" />
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>

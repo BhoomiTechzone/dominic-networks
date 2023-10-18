@@ -12,7 +12,7 @@ b, strong{
   font-size: 18px;
 }
 
-h4{
+h5, h2{
   margin: 0 !important;
 }
 
@@ -45,6 +45,9 @@ p, h5, h6{
   .plans-image-container img{
     overflow: scroll;
   }
+  .happy-customer-testimonials{
+    margin: 10px  !important;
+  }
 
   .footer-logo{
     width: 58% !important;
@@ -54,6 +57,13 @@ p, h5, h6{
 
   .footer-container-icons{
     padding: 1rem 1rem !important;
+  }
+  .about img{
+    width: 100%;
+  }
+  .footer-vision-mission{
+    background-image: none !important;
+    background-color: #808080 !important;
   }
 }
 
@@ -75,8 +85,7 @@ ul li{
 }
 
 .footer-vision-mission{
-  /* background-image: url('./image/fiber.PNG'); */
-  background-color: #808080;
+  background-image: url('./image/about.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -101,7 +110,7 @@ ul li{
 }
 
 .ott-container{
-  background-image: url("/src/image/5.png");
+  background-image: url("/src/image/ott11.jpg");
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -110,8 +119,8 @@ ul li{
 
 .founder-img {
   text-align: center;
-
 }
+
 .flink{
   color: white !important;
   text-decoration: none;
@@ -133,12 +142,15 @@ ul li{
   line-height: 1.4 !important;
 }
 
-.founder-img img{
-  padding-bottom: 10px;
-  border: 2px solid black;
+.about-content{
+  margin: 3rem 0px;
 }
 
-.founder-img h4{
+.founder-img img{
+  padding-bottom: 10px;
+}
+
+.founder-img h5{
   padding-top: 5px;
   color: #c53122;
 }

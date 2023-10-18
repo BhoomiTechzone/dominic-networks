@@ -15,10 +15,40 @@
 .iptv-content-left{
     padding-top: 30px;
 }
-.iptv-content-left-img img{
-    padding-top: 30px;
+.iptv-content-left-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .iptv-content-left-imageLast{
+        display: none;
+    }
+    .iptv-content-left-img{
+        margin-top: 2rem;
+        gap: 20px;
+    }
+    .iptv-content-left-img img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.iptv-content-left-imageLast{
+   margin-left: 27%;
+}
+
+.iptv-content-left-imageLast img{
+    border-radius: 50%;
     transition: all ease 1s;
 }
-.iptv-content-left-img img:hover {
+
+.iptv-content-left-img img{
+    border-radius: 50%;
+    transition: all ease 1s;
+}
+.iptv-content-left-img img:hover, .iptv-content-left-imageLast img:hover{
     transform: scale(1.1);
 }

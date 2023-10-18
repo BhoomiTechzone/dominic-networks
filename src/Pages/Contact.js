@@ -217,7 +217,7 @@ const Contact = () => {
                                 </div>
                                 <div className="sb-img-content">
                                     <p className="ldark"> <b> Log a Complaint</b></p>
-                                    <button className='sb-btn'>Read More</button>
+                                    <button className='sb-btn'><Link to='/privacy'>Read More</Link></button>
                                 </div>
                             </div>
                             <div className="sidebox">
@@ -226,7 +226,7 @@ const Contact = () => {
                                 </div>
                                 <div className="sb-img-content">
                                     <p className="ldark"> <b> Check Your Utilization</b></p>
-                                    <button className='sb-btn'>Read More</button>
+                                    <button className='sb-btn'><Link to='/privacy'>Read More</Link></button>
                                 </div>
                             </div>
                             <div className="sidebox">
@@ -235,7 +235,7 @@ const Contact = () => {
                                 </div>
                                 <div className="sb-img-content">
                                     <p className="ldark"> <b> Check Email</b></p>
-                                    <button className='sb-btn'>Read More</button>
+                                    <button className='sb-btn'><Link to='/privacy'>Read More</Link></button>
                                 </div>
                             </div>
                             <div className="sidebox">
@@ -244,7 +244,7 @@ const Contact = () => {
                                 </div>
                                 <div className="sb-img-content">
                                     <p className="ldark"> <b> Explore Partnership</b></p>
-                                    <button className='sb-btn'>Read More</button>
+                                    <button className='sb-btn'><Link to='/privacy'>Read More</Link></button>
                                 </div>
                             </div>
 

@@ -52,7 +52,9 @@ const SecondNavbar = () => {
                 <NavDropdown.Item ><NavLink to="/terms-conditions" className='flink'>Terms and Condition</NavLink></NavDropdown.Item>
                 <NavDropdown.Item ><NavLink to="/privacy" className='flink'>Privacy Policy</NavLink></NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link ><NavLink to="/contact" className='flink'>Contact</NavLink></Nav.Link>
+              <Nav.Link >
+                <NavLink to="/contact" className='flink'>Contact</NavLink>
+              </Nav.Link>
               {/* <Nav.Link ><Link to="/ourcompany" className='flink'>Our company</Link></Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
