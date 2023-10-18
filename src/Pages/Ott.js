@@ -12,7 +12,7 @@ const Ott = () => {
             <div className='ott-container' style={{ marginTop: "88px" }}>
                 <Typography sx={{ pt: "10%", pl: "10%" }} color="#c53122" variant='h3' >
                     {/* OTT */}
-                    </Typography>
+                </Typography>
             </div>
             <div>
                 <div className="container ct-content">
@@ -28,7 +28,7 @@ const Ott = () => {
                         </div>
                         <div className="col-lg-5">
                             <div className="ct-content-left-img">
-                                <img src={coupleImg} alt="" height="300px" width="90%" />
+                                <img src={coupleImg} alt="" height="400px" width="95%" />
                             </div>
                         </div>
                     </div>

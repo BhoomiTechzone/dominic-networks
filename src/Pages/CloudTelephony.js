@@ -1,7 +1,7 @@
 import React from 'react';
 import './CloudTelephony.css'
 import Form from './Form';
-import img from '../image/ill/3.png'
+import img from '../image/cloudconnect.png'
 import SecondNavbar from '../Components/SecondNavbar';
 
 function CloudTelephony(props) {
@@ -29,7 +29,7 @@ function CloudTelephony(props) {
             </div>
             <div className="col-lg-5">
               <div className="ct-content-left-img">
-                <img src={img} alt="" height="300px" width="90%" />
+                <img src={img} alt="" height="400px" width="90%" />
               </div>
             </div>
           </div>

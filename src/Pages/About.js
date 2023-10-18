@@ -2,9 +2,11 @@ import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import SecondNavbar from '../Components/SecondNavbar';
-import founder from '../image/asss.jpeg'
-import d from '../image/DIRECTOR.png'
-import md from '../image/MD.png'
+import founder from '../image/founder.jpeg';
+import d from '../image/DIRECTOR.png';
+import md from '../image/MD.png';
+import hello from '../image/contact4.png'
+
 
 const About = () => {
     return (
@@ -20,79 +22,34 @@ const About = () => {
                 </Box>
             </Box>
 
-            <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "2rem 12rem", m: "10px auto 0px" }} className="PaddingInText">
-                <Typography color="" textAlign="left" fontSize="18px" lineHeight="25px" >
-                    Creating a website for a fiber and internet service provider is an important task to showcase your services and connect with potential customers. Here are some steps and considerations to help you get started:
-                    <br />
 
-                    <b>Define Your Goals and Audience: </b>
-                    Determine the primary goals of your website, such as attracting new customers, providing information, or enabling online sales.
-                    Identify your target audience. Are you serving residential customers, businesses, or both?
-                    <br />
+            <div className="container about-content">
+                <div className="row">
+                    <div className="col-lg-5">
+                        <div className="about">
+                            <img src={hello} alt="hello" height="550px" width="90%" />
+                        </div>
+                    </div>
+                    <div className="col-lg-7">
+                        <div className="iptv-content-left">
+                            <h2>About Us</h2>
+                            <p>
+                                Welcome to Dominic, an internet service provider that is deeply committed to delivering dependable and top-tier services. We firmly believe that access to swift, secure, and cost-effective internet services should be universal, irrespective of one's geographical location or financial means. Our core focus centers on providing exceptional support and tailored solutions to our clients. We place great importance on cultivating strong and enduring relationships with every customer, recognizing that effective communication is the cornerstone of any successful partnership. Our dedication extends to all clients, whether they are major organizations or individual customers. We are dedicated to understanding your unique needs, promptly addressing your inquiries, and offering solutions that are most appropriate for your specific requirements.
+                                Our comprehensive range of internet services encompasses managed services, cloud-based solutions, voice and data services, and more. What sets us apart is our ability to customize our services to seamlessly align with the evolving demands of your organization, making them both adaptable and expandable. We take pride in being at the forefront of the digital revolution, continually exploring novel ways to leverage technology to enhance client satisfaction and improve the overall quality of our services.
+                            </p>
+                        </div>
+                    </div>
 
-                    <b>Choose a Domain Name and Hosting: </b>
-                    Select a domain name that reflects your business and is easy to remember.
-                    Choose a reliable web hosting provider to ensure your website is always accessible.
-                    <br />
-
-                    <b>Website Design: </b>
-                    Create a clean and professional design that reflects your brand.
-                    Ensure your website is mobile-responsive for users on different devices.
-                    Consider using high-quality images and graphics to showcase your services.
-                    <br />
-
-                    <b>Content Creation: </b>
-                    Provide detailed information about your fiber and internet services, including packages, pricing, and coverage areas.
-                    Highlight any unique selling points or benefits of choosing your services.
-                    Include a blog or news section to share updates and industry insights.
-                    <br />
-
-                    <b>Contact Information: </b>
-                    Make it easy for visitors to contact you by including a contact form, phone number, and email address.
-                    Consider adding a chat or messaging option for immediate customer support.
-                    <br />
-
-                    <b>Service Availability: </b>
-                    Implement a tool or map that allows users to check if your services are available in their area.
-                    <br />
-
-                    <b>Customer Testimonials: </b>
-                    Display customer reviews and testimonials to build trust and credibility.
-                    <b />
-                    <b />
-                    <b>FAQ Section: </b>
-                    Include a frequently asked questions section to address common inquiries.
-                    Performance and Speed:
-                    Optimize your website for fast loading times to provide a better user experience.
-                    <br />
-
-                    <b>Security: </b>
-                    Ensure the security of your website and customer data by using HTTPS and regularly updating plugins and software.
-                    SEO (Search Engine Optimization):
-                    Optimize your website for search engines to improve its visibility in search results.
-                    Social Media Integration:
-                    Link to your social media profiles to encourage engagement and communication.
-                    Legal and Privacy Considerations:
-                    Include a privacy policy, terms of service, and any other necessary legal documents.
-                    Analytics:
-                    Set up website analytics to track user behavior and make data-driven improvements.
-                    Maintenance and Updates:
-                    Regularly update your website with fresh content and ensure that all features are working correctly.
-                    Testing:
-                    Test your website across different browsers and devices to ensure compatibility.
-                    Marketing and Promotion:
-                    Develop a marketing strategy to drive traffic to your website through various channels, such as social media, email marketing, and online advertising.
-                    Building a website for your fiber and internet service provider business is a significant step in reaching your target audience and growing your customer base. Remember to keep the user experience in mind and continuously improve your site based on feedback and performance metrics.
-                </Typography>
-            </Box>
+                </div>
+            </div>
 
             <div className='footer-vision-mission'>
                 <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "20px", maxWidth: "800px", m: "0 auto" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
-                        <Typography color="white" component="div" variant="h4">
+                        <Typography color="#FFDE59" component="div" variant="h4">
                             Our
                         </Typography>
-                        <Typography color="#c53122" component="div" variant="h4" marginLeft="10px">
+                        <Typography color="#FFDE59" component="div" variant="h4" marginLeft="10px">
                             Vision
                         </Typography>
                     </Box>
@@ -103,10 +60,10 @@ const About = () => {
 
                 <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", p: "20px", maxWidth: "800px", m: "0 auto" }}>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
-                        <Typography color="white" component="div" variant="h4" sx={{}}>
+                        <Typography color="#FFDE59" component="div" variant="h4" sx={{}}>
                             Our
                         </Typography>
-                        <Typography color="#c53122" component="div" variant="h4" marginLeft="10px">
+                        <Typography color="#FFDE59" component="div" variant="h4" marginLeft="10px">
                             Mission
                         </Typography>
                     </Box>
@@ -123,19 +80,19 @@ const About = () => {
                         <div className="founder-img">
                             <div className="row">
                                 <div className="col-lg-4">
-                                    <img src={d} alt="founder image" width="" height="200px" />
-                                    <h4>Ashok Kumar Gupta </h4>
-                                    <h4>Chairman</h4>
+                                    <img src={d} alt="founder image" width="200px" height="200px" />
+                                    <h5>Shri Ashok Kumar Gupta </h5>
+                                    <h5>Chairman</h5>
                                 </div>
                                 <div className="col-lg-4">
-                                    <img src={md} alt="founder image" width="" height="200px" />
-                                    <h4>Ashish Agrawal</h4>
-                                    <h4>Managing Director</h4>
+                                    <img src={md} alt="founder image" width="200px" height="200px" />
+                                    <h5>Shri Ashish Agrawal</h5>
+                                    <h5>Managing Director</h5>
                                 </div>
                                 <div className="col-lg-4">
-                                    <img src={founder} alt="founder image" width="" height="200px" />
-                                    <h4>Master Prakhar Agarwal</h4>
-                                    <h4>Founder</h4>
+                                    <img src={founder} alt="founder image" width="200px" height="200px" />
+                                    <h5>Late Prakhar Agarwal</h5>
+                                    <h5>Founder</h5>
                                 </div>
                             </div>
                         </div>

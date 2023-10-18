@@ -30,7 +30,7 @@ export default function InternetLeaseLine() {
           </div>
           <div className="col-lg-5">
               <div className="ill-content-left-img">
-                <img src={img} alt="" height="300px" width="90%" />
+                <img src={img} alt="" height="370px" width="90%" />
               </div>
           </div>
           </div>
