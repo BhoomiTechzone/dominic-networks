@@ -80,31 +80,23 @@ const About = () => {
                         <div className="founder-img">
                             <div className="row">
                                 <div className="col-lg-4">
-                                    <img src={d} alt="founder image" width="200px" height="200px" />
+                                    <img src={d} alt="founder" width="200px" height="200px" />
                                     <h5>Shri Ashok Kumar Gupta </h5>
                                     <h5>Chairman</h5>
                                 </div>
                                 <div className="col-lg-4">
-                                    <img src={md} alt="founder image" width="200px" height="200px" />
+                                    <img src={md} alt="founder" width="200px" height="200px" />
                                     <h5>Shri Ashish Agrawal</h5>
                                     <h5>Managing Director</h5>
                                 </div>
                                 <div className="col-lg-4">
-                                    <img src={founder} alt="founder image" width="200px" height="200px" />
+                                    <img src={founder} alt="founder" width="200px" height="200px" />
                                     <h5>Late Prakhar Agarwal</h5>
                                     <h5>Founder</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* <Box sx={{ display: "flex", alignItems: "center", mb: "1rem" }}>
-                        <Typography component="div" variant="h4">
-                            Our
-                        </Typography>
-                        <Typography color="#c53122" component="div" variant="h4" marginLeft="10px">
-                            Founder
-                        </Typography>
-                    </Box> */}
                 </Box>
                 <Box sx={{ padding: "0rem 11rem 2rem" }} className="PaddingInText">
                     <Typography color="" textAlign="left" fontSize="18px" mt="5px" >
