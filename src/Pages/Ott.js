@@ -1,9 +1,10 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
-import coupleImg from '../image/couple.jpeg';
+import img3 from '../image/7.jpg';
 import Form from './Form';
 import SecondNavbar from '../Components/SecondNavbar';
-
+import img1 from '../image/services1.jpg';
+import img2 from '../image/6.jpg';
 
 const Ott = () => {
     return (
@@ -17,7 +18,7 @@ const Ott = () => {
             <div>
                 <div className="container ct-content">
                     <div className="row">
-                        <div className="col-lg-7">
+                        <div className="col-lg-6">
                             <div className="ct-content-left">
                                 <h2>OTT</h2>
                                 <p>
@@ -26,9 +27,13 @@ const Ott = () => {
                                     By embracing our state-of-the-art OTT services, you can say goodbye to the limitations of traditional television and welcome a new era of boundless enjoyment. Join us today and immerse yourself in a captivating world of content that caters specifically to your interests.</p>
                             </div>
                         </div>
-                        <div className="col-lg-5">
-                            <div className="ct-content-left-img">
-                                <img src={coupleImg} alt="" height="400px" width="95%" />
+                        <div className="col-lg-6">
+                            <div className="iptv-content-left-img">
+                                <img src={img1} alt="iptv" height="200px" width="280px" />
+                                <img src={img3} alt="iptv" height="200px" width="280px" />
+                                <div className='iptv-content-left-imageLast'>
+                                    <img src={img2} alt="iptv" height="260px" width="300px" />
+                                </div>
                             </div>
                         </div>
                     </div>
