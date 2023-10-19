@@ -37,16 +37,15 @@
 }
 
 .iptv-content-left-imageLast{
-   margin-left: 27%;
+   padding-top: 20px;
+   margin: auto;
 }
 
 .iptv-content-left-imageLast img{
-    border-radius: 50%;
     transition: all ease 1s;
 }
 
 .iptv-content-left-img img{
-    border-radius: 50%;
     transition: all ease 1s;
 }
 .iptv-content-left-img img:hover, .iptv-content-left-imageLast img:hover{
