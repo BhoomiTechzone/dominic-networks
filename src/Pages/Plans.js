@@ -1,10 +1,11 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import plansImg from '../image/plans.jpeg';
+import PlanCard from '../Pages/PlanCard';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+
 
 const Plans = () => {
 
@@ -29,7 +30,7 @@ const Plans = () => {
                 </Typography>
             </Box>
             <Box data-aos="fade-up" display='flex' justifyContent='center' className="plans-image-container">
-                <img src={plansImg} alt='plans' />
+                <PlanCard />
             </Box>
         </div>
     )
