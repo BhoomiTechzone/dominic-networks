@@ -85,8 +85,6 @@ const About = () => {
                 </Box>
             </div>
 
-
-
             <div className="container about-content">
                 <div className="row">
                     <div className="col-lg-5">

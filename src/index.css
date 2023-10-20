@@ -163,3 +163,7 @@ ul li{
 .css-46bh2p-MuiCardContent-root{
   padding: 16px 16px 0px 16px !important;
 }
+
+.owl-stage .active{
+  border-bottom: none;
+}
