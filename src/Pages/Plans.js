@@ -8,7 +8,6 @@ import { useEffect } from 'react';
 
 
 const Plans = () => {
-
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, [])

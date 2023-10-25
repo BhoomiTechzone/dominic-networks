@@ -29,18 +29,19 @@ const About = () => {
                             <div className="row">
                                 <div className="col-lg-4">
                                     <img src={d} alt="founder" width="200px" height="200px" />
-                                    <h5>Shri Ashok Kumar Gupta </h5>
                                     <h5>Chairman</h5>
+                                    <h5>Shri Ashok Kumar Gupta </h5>
                                 </div>
                                 <div className="col-lg-4">
                                     <img src={md} alt="founder" width="200px" height="200px" />
-                                    <h5>Shri Ashish Agrawal</h5>
                                     <h5>Managing Director</h5>
+                                    <h5>Shri Ashish Agrawal</h5>
                                 </div>
                                 <div className="col-lg-4">
                                     <img src={founder} alt="founder" width="200px" height="200px" />
-                                    <h5>Late Prakhar Agarwal</h5>
-                                    <h5>Founder</h5>
+                                    <h5>In Fond Memories Of</h5>
+                                    <h5>Our Founder Director</h5>
+                                    <h5>Master Prakhar Agarwal</h5>
                                 </div>
                             </div>
                         </div>
