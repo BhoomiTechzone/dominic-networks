@@ -167,3 +167,10 @@ ul li{
 .owl-stage .active{
   border-bottom: none;
 }
+
+@media (min-width: 250px) and (max-width: 500px) {
+  .ott-container{
+    width: 100%;
+    height: 100px;
+  }
+}
