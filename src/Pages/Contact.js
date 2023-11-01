@@ -87,11 +87,10 @@ const Contact = () => {
                         <h4 className="ldark">
                             Some of our offices are as under
                         </h4>
-                        <div className="">
+                        <div className="address-contact">
                             <div className="">
                                 <h5>Head Office : </h5>
-                                <p>H.N. 502 , Tulsi Park ,Near Lions
-                                    Eye Hospital, Balrampur-271201 U.P. (India)</p>
+                                <p>H.N. 502 , Tulsi Park ,Near Lions Eye Hospital, <br /> Balrampur-271201 U.P. (India)</p>
 
                                 <p> <b><BiPhoneCall /> </b>  +91-9838022833</p>
                                 <p> <b><AiOutlineMail /></b>  support@dominicnetworks.com</p>
@@ -105,8 +104,6 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <Form />
             </div>

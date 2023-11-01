@@ -224,7 +224,18 @@
     height: auto;
   }
 
+  .address-contact{
+    gap: 20px !important;
+  }
 }
+
+
+.address-contact{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
 .add1 ,.add2{
   width: 45% !important;
   float: left !important; 
@@ -239,6 +250,7 @@
   border: 2px solid gray;
   height: 100px;
 }
+
 .sb-btn{
   padding: 8px;
   border-radius: 10px;
