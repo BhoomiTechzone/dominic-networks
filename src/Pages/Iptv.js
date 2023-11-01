@@ -28,10 +28,16 @@ function Iptv(props) {
             </div>
             <div className="col-lg-6">
               <div className="iptv-content-left-img">
-                <img src={iptv1} alt="iptv" height="220px" width="280px" />
-                <img src={iptv3} alt="iptv" height="220px" width="280px" />
+                <div>
+                  <div className='first-image'>
+                    <img src={iptv1} alt="iptv" height="235px" width="300px" />
+                  </div>
+                  <div className='second-image'>
+                    <img src={iptv3} alt="iptv" height="235px" width="300px" />
+                  </div>
+                </div>
                 <div className='iptv-content-left-imageLast'>
-                  <img src={iptv4} alt="iptv" height="220px" width="300px" />
+                  <img src={iptv4} alt="iptv" height="235px" width="300px" />
                 </div>
               </div>
             </div>
