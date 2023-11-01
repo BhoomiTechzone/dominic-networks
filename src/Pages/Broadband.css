@@ -1,8 +1,9 @@
 .bd-header{
     margin-top: 88px;
     height: 400px;
-    background: url("../image/broadband.jpg");
+    background: url("../image/new-broadband-transformed.jpeg");
     background-size: cover;
+    /* box-shadow: 0px 10px 10px -20px rgba(0,0,0,0.45); */
 }
 .bd-header .container{
     color: white;
