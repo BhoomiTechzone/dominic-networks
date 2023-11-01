@@ -18,7 +18,7 @@ const Broadband = () => {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="ct-content-left-img">
-                                <img src={boyPic} alt="" height="400px" width="90%" />
+                                <img src={boyPic} alt="" height="420px" width="90%" />
                             </div>
                         </div>
                         <div className="col-lg-7">

@@ -4,23 +4,31 @@
     background: url("/src/image/3.png");
     background-size: cover;
 }
+
 .iptv-header .container{
     color: white;
     padding-top: 120px;
-
 }
+
 .iptv-content{
     padding:  30px;
 }
+
 .iptv-content-left{
     padding-top: 30px;
 }
+
 .iptv-content-left-img{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 6rem;
 }
+
+.second-image{
+    margin-top: 15px;
+}
+
 
 @media only screen and (max-width: 800px) {
     .iptv-content-left-imageLast{
@@ -38,8 +46,8 @@
 }
 
 .iptv-content-left-imageLast{
-   padding-top: 20px;
-   margin: auto;
+   display: flex;
+   align-items: center;
 }
 
 .iptv-content-left-imageLast img{

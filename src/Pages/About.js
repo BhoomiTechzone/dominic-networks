@@ -90,7 +90,7 @@ const About = () => {
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="about">
-                            <img src={hello} alt="hello" height="480px" width="90%" />
+                            <img src={hello} alt="hello" height="460px" width="90%" />
                         </div>
                     </div>
                     <div className="col-lg-7">

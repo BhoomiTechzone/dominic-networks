@@ -1,5 +1,5 @@
 .count{
-    background-color: #07b9e6;
+    background-color: #acacac;
     color: white;
     padding: 20px;
     text-align: center !important;
@@ -8,7 +8,7 @@
     padding-left: 10px;
     /* width: 80%; */
     /* text-align: center; */
-    border-left: 2px solid red ;
+    border-left: 3px solid;
 }
 .count h2{
     text-align: center;

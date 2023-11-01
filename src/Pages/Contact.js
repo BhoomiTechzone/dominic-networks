@@ -8,7 +8,7 @@ import c3 from '../image/contact3.png'
 import c4 from '../image/contact4.png'
 import Form from './Form';
 import { BiPhoneCall } from 'react-icons/bi';
-import { AiOutlineMail} from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
 
 const Contact = () => {
 
@@ -55,7 +55,7 @@ const Contact = () => {
                             </div>
                             <div className="sidebox">
                                 <div className="sb-img">
-                                <img src={c2} alt="" width="100%" />
+                                    <img src={c2} alt="" width="100%" />
                                 </div>
                                 <div className="sb-img-content">
                                     <p className="ldark"> <b> Check Your Utilization</b></p>
@@ -73,39 +73,42 @@ const Contact = () => {
                             </div>
                             <div className="sidebox">
                                 <div className="sb-img">
-                                <img src={c4} alt="" width="100%" />
+                                    <img src={c4} alt="" width="100%" />
                                 </div>
                                 <div className="sb-img-content">
                                     <p className="ldark"> <b> Explore Partnership</b></p>
                                     <button className='sb-btn'><Link to='/privacy'>Read More</Link></button>
                                 </div>
                             </div>
-
                         </div>
-                        <div className="col-lg-8">
-                            <h4 className="ldark">Some of our offices are as under</h4>
-                            <div className="addresses">
-                                <div className="add1">
-                                    <h5>Head Office : </h5>
-                                    <p>H.N. 502 , Tulsi Park ,Near Lions
-                                        Eye Hospital, Balrampur-271201 U.P. (India)</p>
-                                   
-                                    
-                                    <p> <b><BiPhoneCall/> </b>  +91-9838022833</p>
-                                    <p> <b><AiOutlineMail/></b>  support@dominicnetworks.com</p>
-                                </div>
-                                <div className="add2">
-                                    <h5>Corporate Office : </h5>
-                                    <p>A-36, Sector-63 <br /> Noida Uttar Pradesh</p>
-                                    
-                                    <p> <b><BiPhoneCall/></b>  +91-9838022833</p>
-                                    <p> <b><AiOutlineMail/></b>  support@dominicnetworks.com</p>
-                                </div>
+                    </div>
+
+                    <div>
+                        <h4 className="ldark">
+                            Some of our offices are as under
+                        </h4>
+                        <div className="">
+                            <div className="">
+                                <h5>Head Office : </h5>
+                                <p>H.N. 502 , Tulsi Park ,Near Lions
+                                    Eye Hospital, Balrampur-271201 U.P. (India)</p>
+
+                                <p> <b><BiPhoneCall /> </b>  +91-9838022833</p>
+                                <p> <b><AiOutlineMail /></b>  support@dominicnetworks.com</p>
+                            </div>
+                            <div className="">
+                                <h5>Corporate Office : </h5>
+                                <p>A-36, Sector-63 <br /> Noida Uttar Pradesh</p>
+
+                                <p> <b><BiPhoneCall /></b>  +91-9838022833</p>
+                                <p> <b><AiOutlineMail /></b>  support@dominicnetworks.com</p>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
-<Form/>
+                <Form />
             </div>
         </>
     );
