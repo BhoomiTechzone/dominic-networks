@@ -31,7 +31,7 @@
 
 
 @media only screen and (max-width: 800px) {
-    .iptv-content-left-imageLast{
+    .iptv-content-left-imageLast img{
         display: none;
     }
     .iptv-content-left-img{

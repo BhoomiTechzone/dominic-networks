@@ -54,7 +54,7 @@ p, h5, h6{
   .footer-logo{
     width: 80% !important;
     padding: 0;
-    margin: auto;
+    margin: auto !important;
   }
 
   .footer-container-icons{

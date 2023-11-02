@@ -32,10 +32,10 @@ const Ott = () => {
                             <div className="iptv-content-left-img">
                                 <div>
                                     <div className='first-image'>
-                                        <img src={img1} alt="iptv" height="180px" width="300px" />
+                                        <img src={img1} alt="iptv" height="175px" width="300px" />
                                     </div>
                                     <div className='second-image'>
-                                        <img src={img3} alt="iptv" height="180px" width="300px" />
+                                        <img src={img3} alt="iptv" height="175px" width="300px" />
                                     </div>
                                 </div>
                                 <div className='iptv-content-left-imageLast'>
