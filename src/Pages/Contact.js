@@ -90,17 +90,17 @@ const Contact = () => {
                         <div className="address-contact">
                             <div className="">
                                 <h5>Head Office : </h5>
-                                <p>H.N. 502 , Tulsi Park ,Near Lions Eye Hospital, <br /> Balrampur-271201 U.P. (India)</p>
+                                <p>H.N. 502 , Tulsi Park ,Near Lions Eye Hospital, <br /> Balrampur-271201 (U.P.)</p>
 
                                 <p> <b><BiPhoneCall /> </b>  +91-9838022833</p>
-                                <p> <b><AiOutlineMail /></b>  support@dominicnetworks.com</p>
+                                <p> <b><AiOutlineMail /></b>  info@dominicnetworks.com</p>
                             </div>
                             <div className="">
                                 <h5>Corporate Office : </h5>
-                                <p>A-36, Sector-63 <br /> Noida Uttar Pradesh</p>
+                                <p>A-36, Ground Floor, G-8, Sector-63 <br /> Noida-201301 (U.P.)</p>
 
                                 <p> <b><BiPhoneCall /></b>  +91-9838022833</p>
-                                <p> <b><AiOutlineMail /></b>  support@dominicnetworks.com</p>
+                                <p> <b><AiOutlineMail /></b>  info@dominicnetworks.com</p>
                             </div>
                         </div>
                     </div>
