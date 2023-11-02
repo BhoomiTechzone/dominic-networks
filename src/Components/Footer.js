@@ -9,6 +9,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import imgl from '../image/logo/Correction-4-removebg-preview.png'
+import FotterLogo from '../image/FooterLogo3.png'
 import { Link } from 'react-router-dom';
 
 
@@ -16,12 +17,12 @@ const Footer = () => {
 
     return (
         <>
-            <Card sx={{ display: 'flex',backgroundColor:"#808080" ,justifyContent: "space-between",  flexWrap: "wrap" }}>
+            <Card sx={{ display: 'flex',backgroundColor:"#808080" ,justifyContent: "space-between",  flexWrap: "wrap", padding:"0px 0px" }}>
                 <CardMedia
                     className='footer-logo'
                     component="img"
                     sx={{ width:"12%", height:"12%", padding:"5px 0px 0px"}}
-                    image={imgl}
+                    image={FotterLogo}
                     alt="Live from space album cover"
                 />
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
