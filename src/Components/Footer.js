@@ -9,7 +9,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import imgl from '../image/logo/Correction-4-removebg-preview.png';
-import FotterLogo from '../image/FooterLogo3.png'
+import FotterLogo from '../image/FooLogo.png'
 import { Link } from 'react-router-dom';
 
 
